@@ -98,6 +98,131 @@
       "permanent": true
     },
     {
+      "source": "/webdesign-prignitz",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-perleberg",
+      "destination": "/webdesign-perleberg",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-wittenberge",
+      "destination": "/webdesign-wittenberge",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-pritzwalk",
+      "destination": "/webdesign-pritzwalk",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-karstaedt",
+      "destination": "/webdesign-karstaedt",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-bad-wilsnack",
+      "destination": "/webdesign-bad-wilsnack",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-kyritz",
+      "destination": "/webdesign-kyritz",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-neuruppin",
+      "destination": "/webdesign-neuruppin",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-havelberg",
+      "destination": "/webdesign-havelberg",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-ludwigslust",
+      "destination": "/webdesign-ludwigslust",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-parchim",
+      "destination": "/webdesign-parchim",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-stendal",
+      "destination": "/webdesign-stendal",
+      "permanent": true
+    },
+    {
+      "source": "/webseite-salzwedel",
+      "destination": "/webdesign-salzwedel",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-perleberg",
+      "destination": "/webdesign-perleberg",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-wittenberge",
+      "destination": "/webdesign-wittenberge",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-pritzwalk",
+      "destination": "/webdesign-pritzwalk",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-karstaedt",
+      "destination": "/webdesign-karstaedt",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-bad-wilsnack",
+      "destination": "/webdesign-bad-wilsnack",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-kyritz",
+      "destination": "/webdesign-kyritz",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-neuruppin",
+      "destination": "/webdesign-neuruppin",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-havelberg",
+      "destination": "/webdesign-havelberg",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-ludwigslust",
+      "destination": "/webdesign-ludwigslust",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-parchim",
+      "destination": "/webdesign-parchim",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-stendal",
+      "destination": "/webdesign-stendal",
+      "permanent": true
+    },
+    {
+      "source": "/webdesigner-salzwedel",
+      "destination": "/webdesign-salzwedel",
+      "permanent": true
+    },
+    {
       "source": "/werkzeuge",
       "destination": "/",
       "permanent": true
