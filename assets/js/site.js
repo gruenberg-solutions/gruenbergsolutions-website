@@ -38,6 +38,17 @@
     }, {threshold:.2}).observe(v);
   });
 
+  // Kundenstimme: Video startet erst auf Klick, mit Ton und Steuerung
+  [].slice.call(document.querySelectorAll('.tvid')).forEach(function(f){
+    var v = f.querySelector('video'), b = f.querySelector('.tvid-play');
+    if (!v || !b) return;
+    b.addEventListener('click', function(){
+      f.classList.add('on'); v.controls = true; v.muted = false;
+      var p = v.play(); if (p && p.catch) p.catch(function(){});
+    });
+    v.addEventListener('ended', function(){ f.classList.remove('on'); v.controls = false; });
+  });
+
   // Kundenseiten-Showcase
   var sc = document.getElementById('webseiten'), scSticky = document.getElementById('scSticky'), scScreen = document.getElementById('scScreen');
   var layers = scScreen ? [].slice.call(scScreen.querySelectorAll('.sc-layer')) : [];
