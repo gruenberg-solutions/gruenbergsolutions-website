@@ -382,7 +382,7 @@ a:hover .film-thumb img,a.film-thumb:hover img{transform:scale(1.04)}
 .foot ul{list-style:none;margin:0;padding:0}
 .foot a{text-decoration:none}
 .foot a:hover{color:var(--orange-deep)}
-.foot h4{margin:0 0 10px;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.foot h4,.foot h3.foot-h{margin:0 0 10px;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
 .foot-bottom{margin-top:40px;font-size:14px;color:var(--muted)}
 
 @media (prefers-reduced-motion:reduce){
