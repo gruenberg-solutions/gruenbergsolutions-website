@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 36" role="img" aria-label="4,9 von 5 Sternen">
+<defs><polygon id="s" points="18,2 22.6,12.6 34,13.8 25.5,21.5 28,33 18,27 8,33 10.5,21.5 2,13.8 13.4,12.6"/></defs>
+<use href="#s" x="0" fill="#FF7319"/>
+<use href="#s" x="38" fill="#FF7319"/>
+<use href="#s" x="76" fill="#FF7319"/>
+<use href="#s" x="114" fill="#FF7319"/>
+<use href="#s" x="152" fill="#FF7319"/>
+</svg>

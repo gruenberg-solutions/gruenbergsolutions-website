@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Werkzeuge. Neu gedacht. | Grünberg Solutions</title>
+<meta name="description" content="Die führenden KI-Werkzeuge für Mittelstandsbetriebe. Maßgeschneiderte Software für einen konkreten Engpass, live im Einsatz bei Bau-, Metall- und Industriebetrieben in ganz Deutschland." />
+<meta name="keywords" content="KI-Werkzeuge Mittelstand, Kalkulationswerkzeug, Dispositionswerkzeug, Aufmaßwerkzeug, Custom Software, Grünberg Solutions" />
+<link rel="canonical" href="https://gruenbergsolutions.de/werkzeuge" />
+<link rel="alternate" hreflang="de" href="https://gruenbergsolutions.de/werkzeuge" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Grünberg Solutions GmbH" />
+
+<meta property="og:title" content="Software wie ein Werkzeug | Grünberg Solutions" />
+<meta property="og:description" content="Maßgeschneiderte Software für genau einen Engpass in Ihrem Betrieb. Auf Ihre Prozesse, Daten und Branche zugeschnitten. Schlank, präzise, im täglichen Einsatz." />
+<meta property="og:image" content="https://www.gruenbergsolutions.de/images/og-werkzeuge.png?v=2" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://www.gruenbergsolutions.de/werkzeuge" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:site_name" content="Grünberg Solutions GmbH" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Software wie ein Werkzeug | Grünberg Solutions" />
+<meta name="twitter:description" content="Maßgeschneiderte Software für genau einen Engpass in Ihrem Betrieb. Auf Ihre Prozesse, Daten und Branche zugeschnitten." />
+<meta name="twitter:image" content="https://www.gruenbergsolutions.de/images/og-werkzeuge.png?v=2" />
+
+<link rel="icon" type="image/png" href="/images/logo-gruenberg-solutions.png" />
+<link rel="apple-touch-icon" href="/images/logo-gruenberg-solutions.png" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Grünberg Solutions GmbH",
+  "url": "https://gruenbergsolutions.de",
+  "logo": "https://gruenbergsolutions.de/images/logo-gruenberg-solutions.png",
+  "description": "Grünberg Solutions entwickelt maßgeschneiderte KI-Werkzeuge für Mittelstandsbetriebe.",
+  "taxID": "DE452419786",
+  "founder": { "@type": "Person", "name": "Jonas Grünberg", "jobTitle": "Geschäftsführer" },
+  "address": { "@type": "PostalAddress", "streetAddress": "Großer Markt 16", "postalCode": "19348", "addressLocality": "Perleberg", "addressCountry": "DE" },
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+49-152-55604258", "contactType": "customer service", "email": "kontakt@gruenbergsolutions.de", "availableLanguage": "German" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "KI-Werkzeuge für den Mittelstand",
+  "serviceType": "Maßgeschneiderte Software- und KI-Entwicklung",
+  "provider": { "@type": "Organization", "name": "Grünberg Solutions GmbH", "url": "https://gruenbergsolutions.de" },
+  "areaServed": { "@type": "Country", "name": "Deutschland" },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Werkzeuge",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "UrKalk Bau", "description": "Kalkulationswerkzeug für Tiefbau und Hochbau." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "UrKalk Metall", "description": "Kalkulationswerkzeug für Metallbau und Anlagenbau." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tagwerk", "description": "Dispositions- und Skill-Matrix-Werkzeug." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Zollstock", "description": "Aufmaß- und Abrechnungswerkzeug." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Schmiede", "description": "Maßgeschneiderter Werkzeug-Bau für einen konkreten Engpass." } }
+    ]
+  }
+}
+</script>
+
+<style id="gs-fontface">
+@font-face{font-family:'Inter';font-style:normal;font-weight:300;font-display:swap;src:url('/fonts/inter-300.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-400.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/inter-500.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/inter-600.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/inter-700.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;src:url('/fonts/inter-800.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('/fonts/inter-900.woff2') format('woff2');}
+</style>
+<style>
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+:root{
+  /* werkzeuge: Brand-Dunkelgrün als Theme */
+  --bg:#011F23; --surface:#042C30; --surface-2:#073A3F;
+  --bg-alt:#011F23; --brand:#F4F5F7; --accent:#FF7319; --accent-hover:#E5650F; --accent-dim:rgba(255,115,25,0.15);
+  --accent-2:#011F23;
+  --green:#34d399; --green-dim:rgba(52,211,153,0.14);
+  --border:#0F4A50; --border-hover:#1A5A60;
+  --text:#F4F5F7; --text-mid:#C5CDD2; --text-mute:#C5CDD2; --text-dim:#C5CDD2;
+  --shadow-md:0 4px 16px rgba(0,0,0,0.3); --shadow-lg:0 18px 50px rgba(0,0,0,0.35); --shadow-xl:0 28px 80px rgba(0,0,0,0.45);
+  --mono:'Inter',-apple-system,BlinkMacSystemFont,sans-serif; --container:1320px;
+}
+html{ scroll-behavior:smooth; }
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif; font-size:17px; font-weight:400; line-height:1.7; color:var(--text);
+  background-color:#011F23;
+  background-image:linear-gradient(to right, rgba(255,255,255,0.015) 1px, transparent 1px),linear-gradient(to bottom, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size:48px 48px; background-position:0 0;
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; overflow-x:hidden;
+}
+img{ max-width:100%; display:block; }
+a{ color:inherit; text-decoration:none; }
+button{ font-family:inherit; cursor:pointer; border:none; background:none; color:inherit; }
+.container{ max-width:var(--container); margin:0 auto; padding:0 32px; }
+@media (min-width:1800px){ :root{ --container:1480px; } }
+section{ padding:128px 0; position:relative; }
+@media (max-width:768px){ section{ padding:80px 0; } }
+h1,h2,h3,h4{ font-weight:800; line-height:1.05; color:var(--brand); letter-spacing:-0.03em; }
+h1{ font-size:clamp(46px,7vw,86px); font-weight:900; }
+h2{ font-size:clamp(34px,4.6vw,56px); }
+h3{ font-size:clamp(22px,2vw,27px); }
+p{ color:var(--text); line-height:1.72; }
+.eyebrow{ font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:0.16em; text-transform:uppercase; color:var(--accent); display:inline-block; margin-bottom:22px; }
+.eyebrow.mute{ color:var(--text-dim); }
+.lead{ font-size:19px; color:#F4F5F7; opacity:0.85; }
+.btn{ display:inline-flex; align-items:center; gap:10px; padding:18px 32px; border-radius:6px; font-weight:700; font-size:16px; letter-spacing:-0.01em; transition:all .25s cubic-bezier(.16,1,.3,1); border:2px solid transparent; }
+.btn-primary{ background:#FF7319; color:#fff; border:none; box-shadow:none; transition:filter 200ms ease, transform 200ms ease; }
+.btn-primary:hover{ filter:brightness(1.08); transform:translateY(-1px); }
+.btn-primary:active{ transform:translateY(0); }
+.btn-link{ color:var(--brand); font-weight:700; display:inline-flex; align-items:center; gap:9px; font-size:16px; }
+.btn-link::after{ content:'→'; transition:transform .2s; }
+.btn-link:hover::after{ transform:translateX(5px); }
+.reveal{ opacity:0; transform:translateY(24px); transition:opacity 800ms cubic-bezier(0.16,1,0.3,1),transform 800ms cubic-bezier(0.16,1,0.3,1); }
+.reveal.visible,.reveal.in-view{ opacity:1; transform:translateY(0); }
+@media (prefers-reduced-motion:reduce){ .reveal{ transition:none; opacity:1; transform:none; } }
+
+/* Nav */
+.nav{ position:fixed; top:0; left:0; right:0; z-index:100; padding:18px 0; background:rgba(1,31,35,0.95); backdrop-filter:blur(20px) saturate(180%); border-bottom:1px solid transparent; transition:border-color .3s,padding .3s; }
+.nav.scrolled{ border-bottom-color:var(--border); padding:13px 0; }
+.nav-inner{ display:flex; align-items:center; justify-content:space-between; max-width:var(--container); margin:0 auto; padding:0 32px; }
+.nav-logo img{ height:28px; width:auto; filter:brightness(0) invert(1); }
+.nav-links{ display:flex; align-items:center; gap:34px; }
+.nav-links a{ font-size:14px; font-weight:600; color:var(--text-mid); transition:color .2s; }
+.nav-links a:hover,.nav-links a.active{ color:var(--brand); }
+.nav-cta{ padding:11px 22px; font-size:14px; }
+.nav-cta:hover{ transform:translateY(-1px); filter:brightness(1.05); }
+@media (max-width:960px){ .nav-links{ display:none; } }
+
+/* Hero */
+.hero{ padding:188px 0 110px; position:relative; }
+.hero-grid{ display:grid; grid-template-columns:1.08fr 0.92fr; gap:72px; align-items:center; }
+.hero h1{ margin-bottom:28px; }
+.hero h1 .l2{ color:var(--accent); display:block; }
+.hero .lead{ max-width:560px; margin-bottom:42px; font-weight:300; }
+.hero-ctas{ display:flex; align-items:center; gap:26px; flex-wrap:wrap; }
+.kasten{ border:1px solid var(--border); border-radius:10px; background:var(--surface); box-shadow:var(--shadow-xl); padding:34px; }
+.kasten .ke{ font-family:var(--mono); font-size:11px; letter-spacing:0.18em; color:var(--text-dim); text-transform:uppercase; margin-bottom:20px; }
+.kasten-row{ display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 0; border-top:1px solid var(--border); }
+.kasten-row:first-of-type{ border-top:none; }
+.kasten-row .kn{ font-family:var(--mono); font-size:13px; color:var(--text-dim); margin-right:14px; }
+.kasten-row .kt{ font-weight:800; font-size:17px; color:var(--brand); flex:1; letter-spacing:-0.02em; }
+.pill{ font-family:var(--mono); font-size:10.5px; font-weight:700; letter-spacing:0.08em; padding:5px 11px; border-radius:100px; white-space:nowrap; }
+.pill.live{ background:rgba(52,211,153,0.14); color:#34d399; }
+.pill.custom{ background:var(--accent-dim); color:var(--accent); }
+@media (max-width:1000px){ .hero{ padding:150px 0 70px; } .hero-grid{ grid-template-columns:1fr; gap:52px; } .hero .lead{ max-width:100%; } }
+
+/* Trust bar */
+.trustbar{ padding:38px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); background:var(--surface); }
+.trustbar-line{ font-family:var(--mono); font-size:12px; letter-spacing:0.1em; color:var(--text-dim); text-transform:uppercase; text-align:center; margin-bottom:26px; }
+.trustbar-logos{ display:flex; align-items:center; justify-content:center; gap:48px; flex-wrap:wrap; }
+.trustbar-logos img{ filter:brightness(0) invert(1); max-height:32px; width:auto; object-fit:contain; opacity:0.6; transition:opacity 200ms ease; }
+.trustbar-logos img:hover{ opacity:1; }
+@media (max-width:600px){ .trustbar-logos{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; } .trustbar-logos img{ max-height:28px; } }
+
+/* Statement */
+.statement{ background-color:#FFFFFF; color:#011F23; padding:120px 0; margin:80px 0; position:relative; }
+.statement .inner{ max-width:980px; }
+.statement .eyebrow{ color:#FF7319; }
+.statement h2{ font-size:clamp(40px,5.4vw,68px); margin-bottom:30px; color:#011F23; }
+.statement p{ font-size:21px; color:#1A2B2E; opacity:1; max-width:760px; line-height:1.7; }
+
+/* Solutions */
+.solutions{ background:var(--bg-alt); }
+.sec-head{ max-width:840px; margin-bottom:62px; }
+.sec-head h2{ margin-top:6px; }
+.tools-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:22px; }
+.tool-wide{ grid-column:1 / -1; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; border-top:2px solid var(--accent); }
+.tool-wide .tw-quote{ font-size:clamp(20px,2.4vw,28px); font-weight:900; color:var(--brand); letter-spacing:-0.02em; line-height:1.35; }
+.stack{ position:relative; height:420px; }
+.stack-card{ position:absolute; width:320px; border:1px solid rgba(255,255,255,0.08); background:linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%), #042C30; border-radius:10px; box-shadow:0 18px 50px rgba(0,0,0,0.3); padding:22px 24px; }
+.stack-card .sc-top{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.sc-dots span{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; }
+.sc-dots .r{ background:#FF5F57; } .sc-dots .y{ background:#FFBD2E; } .sc-dots .g{ background:#28C840; }
+.sc-pill{ font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:0.08em; padding:4px 10px; border-radius:100px; background:rgba(255,115,25,0.18); color:var(--accent); box-shadow:0 0 14px rgba(255,115,25,0.25); }
+.sc-divider{ height:1px; background:var(--border); margin:0 0 14px; }
+.sc-kicker{ font-family:var(--mono); font-size:11px; letter-spacing:0.12em; color:var(--text-dim); text-transform:uppercase; margin-bottom:8px; }
+.sc-title{ font-weight:800; font-size:19px; color:var(--brand); letter-spacing:-0.02em; line-height:1.3; }
+.sc-arrow{ text-align:right; color:var(--accent); font-weight:800; margin-top:10px; }
+.sc1{ top:0; left:0; --r:0deg; transform:rotate(0deg); z-index:3; animation:floatA 6s ease-in-out infinite; }
+.sc2{ top:96px; left:24px; --r:-1.5deg; transform:rotate(-1.5deg); z-index:2; animation:floatA 6s ease-in-out 1.5s infinite; }
+.sc3{ top:192px; left:48px; --r:-3deg; transform:rotate(-3deg); z-index:1; animation:floatA 6s ease-in-out 3s infinite; }
+@keyframes floatA{ 0%,100%{ transform:translateY(0) rotate(var(--r,0deg)); } 50%{ transform:translateY(-5px) rotate(var(--r,0deg)); } }
+@media (prefers-reduced-motion:reduce){ .stack-card{ animation:none !important; } }
+@media (max-width:1000px){ .stack{ height:auto; display:flex; flex-direction:column; gap:14px; } .stack-card{ position:static; width:100%; transform:none !important; animation:none; } .sc2{ margin-left:10px; } .sc3{ margin-left:20px; } }
+@media (max-width:880px){ .tools-grid{ grid-template-columns:1fr 1fr; } .tool-wide{ grid-template-columns:1fr; gap:24px; } }
+@media (max-width:680px){ .tools-grid{ grid-template-columns:1fr; } }
+.tool{ background:var(--surface); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:34px; display:flex; flex-direction:column; transition:transform 400ms cubic-bezier(0.16,1,0.3,1),box-shadow 400ms cubic-bezier(0.16,1,0.3,1),border-color 400ms ease; position:relative; overflow:hidden; }
+.tool::after{ content:''; position:absolute; top:0; left:0; width:120px; height:120px; background:radial-gradient(circle, rgba(255,115,25,0.15), transparent 70%); opacity:0; transition:opacity 400ms ease; pointer-events:none; }
+.tool:hover{ transform:translateY(-6px); border-color:rgba(255,115,25,0.4); box-shadow:0 24px 48px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,115,25,0.2); }
+.tool:hover::after{ opacity:1; }
+.tool-wide::before{ content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg, transparent, #FF7319, transparent); background-size:200% 100%; animation:shimmer 6s linear infinite; pointer-events:none; }
+@keyframes shimmer{ 0%{ background-position:100% 0; } 100%{ background-position:-100% 0; } }
+@media (prefers-reduced-motion:reduce){ .tool-wide::before{ animation:none; } }
+.tool-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:18px; }
+.tool-no{ font-family:var(--mono); font-size:11px; letter-spacing:0.14em; color:var(--text-dim); text-transform:uppercase; }
+.tool h3{ font-size:26px; font-weight:900; margin-bottom:7px; }
+.tool .sub{ font-size:14px; color:var(--text-mid); margin-bottom:20px; }
+.tool ul{ list-style:none; display:flex; flex-direction:column; gap:11px; margin-bottom:24px; }
+.tool li{ font-size:14.5px; color:var(--text); padding-left:20px; position:relative; line-height:1.5; }
+.tool li::before{ content:'─'; position:absolute; left:0; color:var(--accent); font-weight:700; }
+.tool .acc{ max-height:0; overflow:hidden; transition:max-height .35s ease; }
+.tool.open .acc{ max-height:160px; }
+.tool .acc-in{ font-size:14px; color:var(--text-mid); padding:16px 0 4px; border-top:1px solid var(--border); margin-top:4px; }
+.tool .more{ margin-top:auto; font-family:var(--mono); font-size:12px; font-weight:700; letter-spacing:0.08em; color:var(--brand); text-transform:uppercase; display:inline-flex; align-items:center; gap:8px; }
+.tool .more span{ transition:transform .25s; }
+.tool.open .more span{ transform:rotate(45deg); }
+@media (max-width:980px){ .tools-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:680px){ .tools-grid{ grid-template-columns:1fr; } }
+
+/* Prozess */
+.prozess{ background:var(--bg); }
+.steps{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; border-top:2px solid var(--accent); }
+.step{ padding:34px 26px 0 0; position:relative; }
+.step .sn{ font-family:var(--mono); font-size:13px; font-weight:700; color:var(--accent); letter-spacing:0.1em; margin-bottom:14px; }
+.step h3{ font-size:19px; margin-bottom:12px; }
+.step p{ font-size:14.5px; color:var(--text-mid); }
+.prozess-cta{ text-align:center; margin-top:64px; }
+@media (max-width:900px){ .steps{ grid-template-columns:1fr 1fr; } }
+@media (max-width:560px){ .steps{ grid-template-columns:1fr; } }
+
+/* Trust cases */
+.tcases{ background:var(--bg-alt); }
+.tcases-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+.tcase{ background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:42px 36px; }
+.tcase .q{ font-size:24px; font-weight:900; color:var(--brand); letter-spacing:-0.02em; line-height:1.3; margin-bottom:20px; }
+.tcase .src{ font-family:var(--mono); font-size:12px; letter-spacing:0.06em; color:var(--text-dim); text-transform:uppercase; }
+@media (max-width:900px){ .tcases-grid{ grid-template-columns:1fr; } }
+
+/* Who */
+.who{ background:var(--bg); }
+.who-grid{ display:grid; grid-template-columns:0.42fr 0.58fr; gap:64px; align-items:center; }
+.who-photo img{ width:100%; max-width:380px; aspect-ratio:380/460; object-fit:cover; border-radius:12px; box-shadow:var(--shadow-lg); }
+.who-body h2{ margin:8px 0 22px; }
+.who-body p{ font-size:18px; color:#F4F5F7; opacity:0.85; }
+@media (max-width:900px){ .who-grid{ grid-template-columns:1fr; gap:38px; } .who-photo img{ max-width:300px; } }
+
+/* Finder */
+.finder{ background:var(--bg-alt); }
+.cfg{ max-width:880px; margin:0 auto; background:var(--surface); border:1px solid var(--border); border-radius:10px; box-shadow:var(--shadow-lg); padding:42px; }
+.cfg-stepper{ display:flex; align-items:center; justify-content:center; margin-bottom:36px; }
+.cfg-dot .n{ width:34px; height:34px; border-radius:50%; display:grid; place-items:center; font-weight:800; font-size:14px; background:rgba(255,255,255,0.06); color:var(--text-mid); font-family:var(--mono); transition:all .3s; }
+.cfg-dot.active .n{ background:var(--accent); color:#fff; }
+.cfg-dot.done .n{ background:var(--accent); color:#fff; }
+.cfg-line{ width:60px; height:2px; background:var(--border); margin:0 12px; }
+.cfg-panel{ display:none; }
+.cfg-panel.active{ display:block; animation:cfgIn .35s ease both; }
+@keyframes cfgIn{ from{opacity:0;transform:translateY(12px);} to{opacity:1;transform:none;} }
+.cfg-q{ font-size:21px; font-weight:800; color:var(--brand); text-align:center; margin-bottom:24px; letter-spacing:-0.02em; }
+.cfg-cards{ display:grid; grid-template-columns:1fr 1fr; gap:13px; }
+.cfg-card{ border:1px solid var(--border); border-radius:8px; padding:22px; text-align:left; font-size:15.5px; font-weight:700; color:var(--brand); transition:all .22s; }
+.cfg-card:hover{ border-color:var(--border-hover); transform:translateY(-2px); }
+.cfg-card.sel{ border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-dim); }
+.cfg-card.dim{ opacity:.45; }
+.cfg-card span{ display:block; font-size:12.5px; font-weight:500; color:var(--text-mid); margin-top:6px; }
+.cfg-tags{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+.cfg-tag{ border:1px solid var(--border); border-radius:6px; padding:11px 20px; font-size:14px; font-weight:600; color:var(--brand); transition:all .2s; }
+.cfg-tag.sel{ background:var(--accent); color:#fff; border-color:var(--accent); }
+.cfg-slider-wrap{ display:flex; align-items:center; gap:28px; max-width:620px; margin:0 auto; }
+.cfg-slider-wrap input[type=range]{ flex:1; accent-color:var(--accent); }
+.cfg-hours{ font-size:40px; font-weight:900; color:var(--brand); min-width:130px; text-align:right; }
+.cfg-hours small{ font-size:14px; font-weight:600; color:var(--text-mid); }
+.cfg-actions{ display:flex; justify-content:center; margin-top:28px; }
+.cfg-result{ text-align:center; }
+.cfg-result .ey{ font-family:var(--mono); font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); margin-bottom:14px; }
+.cfg-result .tool{ font-size:clamp(32px,5vw,46px); font-weight:900; color:var(--brand); margin-bottom:18px; letter-spacing:-0.03em; }
+.cfg-result .desc{ font-size:16px; color:var(--text-mid); max-width:620px; margin:0 auto 22px; }
+.cfg-result .save{ font-size:15px; color:var(--brand); background:var(--accent-dim); border:1px solid rgba(255,115,25,0.22); border-radius:8px; padding:20px 24px; max-width:640px; margin:0 auto 28px; line-height:1.6; }
+.cfg-reset{ display:inline-block; margin-top:18px; font-size:14px; color:var(--text-mid); font-weight:600; cursor:pointer; }
+.cfg-reset:hover{ color:var(--brand); }
+@media (max-width:680px){ .cfg{ padding:28px 22px; } .cfg-cards{ grid-template-columns:1fr; } .cfg-slider-wrap{ flex-direction:column; gap:16px; } .cfg-hours{ text-align:center; } }
+
+/* Final CTA */
+.cta-final{ background:linear-gradient(180deg,#063A40 0%, #011F23 55%); border-top:1px solid var(--accent); color:#fff; text-align:center; }
+.cta-final h2{ color:#fff; max-width:780px; margin:0 auto 20px; }
+.cta-final p{ color:rgba(255,255,255,0.72); max-width:620px; margin:0 auto 38px; font-size:18px; }
+.cta-line{ margin-top:26px; font-family:var(--mono); font-size:13px; color:rgba(255,255,255,0.5); }
+.cta-line a{ color:rgba(255,255,255,0.78); }
+
+/* Footer */
+.footer{ background:#001518; color:rgba(255,255,255,0.6); padding:60px 0 32px; }
+.footer-grid{ display:grid; grid-template-columns:2fr 1fr 1fr; gap:40px; margin-bottom:40px; }
+.footer-brand p{ font-size:14px; color:rgba(255,255,255,0.5); max-width:360px; }
+.footer-brand .addr{ margin-top:16px; font-family:var(--mono); font-size:12px; color:rgba(255,255,255,0.55); line-height:1.8; }
+.footer-brand .addr a{ color:rgba(255,255,255,0.7); }
+.footer-col h5{ color:#fff; font-family:var(--mono); font-size:12px; text-transform:uppercase; letter-spacing:0.12em; margin-bottom:18px; }
+.footer-col ul{ list-style:none; }
+.footer-col li{ padding:6px 0; font-size:14px; }
+.footer-col a:hover{ color:var(--accent); }
+.footer-bottom{ padding-top:26px; border-top:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-between; flex-wrap:wrap; gap:18px; font-family:var(--mono); font-size:12px; color:rgba(255,255,255,0.4); }
+@media (max-width:800px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:500px){ .footer-grid{ grid-template-columns:1fr; } }
+
+/* Cookie */
+.cc-banner{ position:fixed; left:20px; right:20px; bottom:20px; z-index:9999; background:var(--surface); border:1px solid var(--border); border-radius:10px; box-shadow:var(--shadow-xl); padding:24px 28px; max-width:1080px; margin:0 auto; display:none; }
+.cc-banner.visible{ display:block; }
+.cc-banner h3{ font-size:18px; margin-bottom:8px; }
+.cc-banner p{ font-size:14px; color:var(--text-mid); margin-bottom:16px; }
+.cc-banner a{ color:var(--accent); text-decoration:underline; }
+.cc-actions{ display:flex; flex-wrap:wrap; gap:10px; }
+.cc-btn{ padding:12px 22px; border-radius:6px; font-weight:700; font-size:14px; border:2px solid transparent; }
+.cc-btn-primary{ background:var(--accent); color:#fff; }
+.cc-btn-ghost{ background:var(--surface-2); color:var(--brand); border-color:var(--border-hover); }
+.cc-btn-link{ color:var(--text-mid); }
+.cc-settings{ display:none; margin-top:16px; padding-top:16px; border-top:1px solid var(--border); }
+.cc-settings.visible{ display:block; }
+.cc-cat{ display:flex; justify-content:space-between; align-items:center; gap:16px; padding:12px 0; border-bottom:1px solid var(--border); }
+.cc-cat:last-child{ border-bottom:none; }
+.cc-cat-info .t{ font-weight:700; font-size:14px; }
+.cc-cat-info .d{ font-size:12px; color:var(--text-mid); margin-top:2px; }
+.cc-switch{ position:relative; width:44px; height:24px; flex-shrink:0; }
+.cc-switch input{ opacity:0; width:0; height:0; }
+.cc-slider{ position:absolute; inset:0; background:#D1D5DB; border-radius:100px; transition:.2s; cursor:pointer; }
+.cc-slider::before{ content:''; position:absolute; left:3px; top:3px; width:18px; height:18px; background:#fff; border-radius:50%; transition:.2s; }
+.cc-switch input:checked + .cc-slider{ background:var(--accent); }
+.cc-switch input:checked + .cc-slider::before{ transform:translateX(20px); }
+.cc-switch input:disabled + .cc-slider{ background:var(--green); opacity:.6; }
+@media (max-width:600px){ .cc-banner{ left:10px; right:10px; bottom:10px; } .cc-actions{ flex-direction:column; } .cc-btn{ width:100%; } }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="Grünberg Solutions Startseite"><img src="/images/logo-gruenberg-solutions.png" alt="Logo Grünberg Solutions" fetchpriority="high" decoding="async"></a>
+    <div class="nav-links">
+      <a href="/">KI Connect</a>
+      <a href="/werkzeuge" class="active">Werkzeuge</a>
+      <a href="#werkzeuge">Lösungen</a>
+      <a href="#vorgehen">Vorgehen</a>
+      <a href="#ueber-uns">Über uns</a>
+    </div>
+    <a href="https://calendly.com/j-gruenberg-gruenbergsolutions/analysegesprach-grunberg-solutions-gmbh" target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-cta">Erstgespräch</a>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text reveal">
+        <span class="eyebrow">Digitale Werkzeuge</span>
+        <h1>Werkzeuge.<span class="l2">Neu gedacht.</span></h1>
+        <p class="lead">Die führenden KI-Werkzeuge für Mittelstandsbetriebe. Live im Einsatz bei Bau-, Metall- und Industriebetrieben in ganz Deutschland.</p>
+        <div class="hero-ctas">
+          <a href="https://calendly.com/j-gruenberg-gruenbergsolutions/analysegesprach-grunberg-solutions-gmbh" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Kostenloses Erstgespräch anfordern</a>
+          <a href="#werkzeuge" class="btn-link">Werkzeuge ansehen</a>
+        </div>
+      </div>
+      <div class="hero-side reveal">
+        <div class="stack" aria-hidden="true">
+          <div class="stack-card sc3">
+            <div class="sc-top"><span class="sc-dots"><span class="r"></span><span class="y"></span><span class="g"></span></span><span class="sc-pill">Live</span></div>
+            <div class="sc-divider"></div>
+            <div class="sc-kicker">Zollstock</div>
+            <div class="sc-title">Aufmaß und Abrechnung</div>
+            <div class="sc-arrow">→</div>
+          </div>
+          <div class="stack-card sc2">
+            <div class="sc-top"><span class="sc-dots"><span class="r"></span><span class="y"></span><span class="g"></span></span><span class="sc-pill">Live</span></div>
+            <div class="sc-divider"></div>
+            <div class="sc-kicker">Tagwerk</div>
+            <div class="sc-title">Disposition und Skill-Matrix</div>
+            <div class="sc-arrow">→</div>
+          </div>
+          <div class="stack-card sc1">
+            <div class="sc-top"><span class="sc-dots"><span class="r"></span><span class="y"></span><span class="g"></span></span><span class="sc-pill">Live</span></div>
+            <div class="sc-divider"></div>
+            <div class="sc-kicker">UrKalk</div>
+            <div class="sc-title">Kalkulation Bau und Metallbau</div>
+            <div class="sc-arrow">→</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trustbar" style="padding:38px 0;">
+  <div class="container">
+    <div class="trustbar-line">120+ Mittelstandsbetriebe im Einsatz · Dozent BLAk · Sitz Perleberg</div>
+    <div class="trustbar-logos">
+      <img src="/images/werkzeuge/dmb-white.png" alt="Deutscher Mittelstands-Bund" loading="lazy" decoding="async">
+      <img src="/images/werkzeuge/qrm-white.png" alt="Qualitätsring Mittelstand" loading="lazy" decoding="async">
+      <img src="/images/werkzeuge/blak-white.png" alt="Brandenburgische Landwirtschaftsakademie" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="statement" id="statement">
+  <div class="container">
+    <div class="inner reveal">
+      <span class="eyebrow">Unser Prinzip</span>
+      <h2>Software wie ein Werkzeug.</h2>
+      <p>Wir bauen keine Software-Abos. Wir bauen keine ERP-Module. Wir bauen Werkzeuge für Mittelstandsbetriebe, maßgeschneidert auf einen konkreten Engpass. Schlank, präzise, langfristig partnerschaftlich. Aus Brandenburg, im Einsatz bundesweit.</p>
+    </div>
+  </div>
+</section>
+
+<section class="solutions" id="werkzeuge">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Unsere Werkzeuge für Ihren Engpass</span>
+      <h2>Maßgeschneidert für den deutschen Mittelstand.</h2>
+    </div>
+    <div class="tools-grid">
+
+      <div class="tool reveal">
+        <div class="tool-top"><span class="tool-no">Werkzeug 01</span><span class="pill live">Live</span></div>
+        <h3>UrKalk Bau</h3>
+        <div class="sub">Kalkulationswerkzeug für Tiefbau und Hochbau</div>
+        <ul>
+          <li>GAEB-basiertes LV-Einlesen</li>
+          <li>Auto-Vorschlag aus Sirados und Eigendaten</li>
+          <li>Indexierung auf Ihren Betrieb</li>
+        </ul>
+        <div class="acc"><div class="acc-in">Einsatz: diverse Tiefbaufirmen in Brandenburg. Aus zwei Tagen Leistungsverzeichnis werden 30 Minuten Prüfung.</div></div>
+        <button class="more">Mehr erfahren <span>+</span></button>
+      </div>
+
+      <div class="tool reveal">
+        <div class="tool-top"><span class="tool-no">Werkzeug 02</span><span class="pill live">Live</span></div>
+        <h3>UrKalk Metall</h3>
+        <div class="sub">Kalkulationswerkzeug für Metallbau und Anlagenbau</div>
+        <ul>
+          <li>CAD- und Step-File-Erkennung</li>
+          <li>Stücklisten-Generierung</li>
+          <li>Gewichts- und Stundensatz-Kalkulation</li>
+        </ul>
+        <div class="acc"><div class="acc-in">Einsatz: mehrere Metallbau-Betriebe in Norddeutschland. Aus zwei Tagen Bearbeitung werden 30 Minuten Prüfzeit.</div></div>
+        <button class="more">Mehr erfahren <span>+</span></button>
+      </div>
+
+      <div class="tool reveal">
+        <div class="tool-top"><span class="tool-no">Werkzeug 03</span><span class="pill live">Live</span></div>
+        <h3>Tagwerk</h3>
+        <div class="sub">Dispositions- und Skill-Matrix-Werkzeug</div>
+        <ul>
+          <li>Skill-Matrix Ihres Teams</li>
+          <li>Reshuffling-Vorschlag bei Ausfall</li>
+          <li>Konflikt-Prüfung und Auslastung</li>
+        </ul>
+        <div class="acc"><div class="acc-in">Einsatz: mehrere Industrie- und Metallbaubetriebe. Bei Krankmeldung steht der Ersatz spürbar schneller bereit als bei manueller Suche.</div></div>
+        <button class="more">Mehr erfahren <span>+</span></button>
+      </div>
+
+      <div class="tool reveal">
+        <div class="tool-top"><span class="tool-no">Werkzeug 04</span><span class="pill live">Live</span></div>
+        <h3>Zollstock</h3>
+        <div class="sub">Aufmaß- und Abrechnungswerkzeug</div>
+        <ul>
+          <li>Tablet-Erfassung auf der Baustelle</li>
+          <li>GPS-Verortung und Foto-Anhang</li>
+          <li>Auto-Übertrag in die Abrechnung</li>
+        </ul>
+        <div class="acc"><div class="acc-in">Einsatz: Tiefbau-Unternehmen mit mobilen Crews. Aufmaß auf der Baustelle, Abrechnung sofort im Büro.</div></div>
+        <button class="more">Mehr erfahren <span>+</span></button>
+      </div>
+
+      <div class="tool tool-wide reveal">
+        <div>
+          <div class="tool-top" style="margin-bottom:14px;"><span class="tool-no">Werkzeug 05</span><span class="pill custom">Custom-Build</span></div>
+          <h3 style="font-size:30px;">Schmiede</h3>
+          <div class="sub">Maßgeschneiderter Werkzeug-Bau für Ihren Engpass</div>
+          <ul>
+            <li>Bedarfsanalyse im Dialog</li>
+            <li>Pilot auf Ihren echten Daten</li>
+            <li>Klarer Rahmen, gemeinsam abgestimmt</li>
+          </ul>
+          <div class="acc"><div class="acc-in">Custom-Builds für Mittelstandsbetriebe in Bau, Metall und Tiefbau. Wenn keine Standard-Lösung passt, bauen wir das Werkzeug nach Maß.</div></div>
+          <button class="more">Mehr erfahren <span>+</span></button>
+        </div>
+        <div class="tw-quote">„Wenn keine unserer vier Standardwerkzeuge passt, bauen wir Ihnen Ihres."</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="prozess" id="vorgehen">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Wie wir arbeiten</span>
+      <h2>In vier Etappen zum Werkzeug.</h2>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><div class="sn">Schritt 01</div><h3>Wir hören zu</h3><p>Im Erstgespräch schildern Sie Ihre Situation. Wir verstehen Ihren Engpass, Ihre Branche und Ihre Ziele, ohne Verkaufsdruck und ohne Versprechungen, die wir später nicht halten können.</p></div>
+      <div class="step"><div class="sn">Schritt 02</div><h3>Wir stimmen uns ab</h3><p>Auf Basis Ihrer Situation entwerfen wir einen passenden Ansatz. Was wir bauen, was wir nicht bauen, welche Etappen Sinn ergeben. Sie entscheiden, ob es weitergeht.</p></div>
+      <div class="step"><div class="sn">Schritt 03</div><h3>Wir bauen</h3><p>Wir entwickeln Ihr Werkzeug. Eng abgestimmt, mit kurzen Feedback-Schleifen, ohne wochenlanges Schweigen. Sie sehen den Fortschritt, wir hören weiter zu.</p></div>
+      <div class="step"><div class="sn">Schritt 04</div><h3>Wir testen und evaluieren</h3><p>Sobald das Werkzeug steht, läuft es im echten Betrieb. Wir messen, justieren, lernen mit Ihnen. Aus der ersten Version wird das, was wirklich entlastet.</p></div>
+    </div>
+    <div class="prozess-cta reveal">
+      <a href="https://calendly.com/j-gruenberg-gruenbergsolutions/analysegesprach-grunberg-solutions-gmbh" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Kostenloses Erstgespräch anfordern</a>
+    </div>
+  </div>
+</section>
+
+<section class="tcases" id="cases">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Aus dem Einsatz</span>
+      <h2>Was Werkzeuge konkret verändern.</h2>
+    </div>
+    <div class="tcases-grid">
+      <div class="tcase reveal"><div class="q">„Aus zwei Tagen LV werden 30 Minuten Prüfung."</div><div class="src">Tiefbaufirma, Brandenburg</div></div>
+      <div class="tcase reveal"><div class="q">„Bei Krankmeldung steht der Ersatz in Sekunden statt Stunden."</div><div class="src">Industriebetrieb, Norddeutschland</div></div>
+      <div class="tcase reveal"><div class="q">„Aufmaß auf der Baustelle, Abrechnung sofort im Büro."</div><div class="src">Tiefbauunternehmen mit mobiler Crew</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="who" id="ueber-uns">
+  <div class="container">
+    <div class="who-grid">
+      <div class="who-photo reveal">
+        <img src="/images/portrait-jonas-gruenberg.jpeg" alt="Jonas Grünberg, Geschäftsführer und Gründer" loading="lazy" decoding="async">
+      </div>
+      <div class="who-body reveal">
+        <span class="eyebrow">Wer wir sind</span>
+        <h2>Hinter der Schmiede.</h2>
+        <p>Grünberg Solutions baut KI-Werkzeuge für den deutschen Mittelstand. Sitz in Perleberg, Kunden bundesweit. Wir entwickeln Software, die einen konkreten Engpass löst, nicht hundert auf einmal. Unsere Werkzeuge entstehen in enger Zusammenarbeit mit den Menschen, die jeden Tag damit arbeiten. Wir sind Dozentenpartner der Brandenburgischen Landwirtschaftsakademie und betreuen über 120 Betriebe aus Bau, Metall, Industrie, Agrar und öffentlicher Hand. Unser Anspruch: Werkzeuge nach Maß, langfristig partnerschaftlich, nah an Ihrem Betrieb. Keine Konzern-Standards. Keine zehn-Jahres-Roadmaps. Keine Software-Abos für Funktionen, die Sie nie brauchen werden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="finder" id="finder">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:center;max-width:720px;margin-left:auto;margin-right:auto;">
+      <span class="eyebrow">Werkzeug-Finder</span>
+      <h2>Welches Werkzeug passt zu Ihrem Engpass?</h2>
+    </div>
+    <div class="cfg reveal" id="cfg">
+      <div class="cfg-stepper" aria-hidden="true">
+        <div class="cfg-dot active" data-dot="1"><span class="n">1</span></div><div class="cfg-line"></div>
+        <div class="cfg-dot" data-dot="2"><span class="n">2</span></div><div class="cfg-line"></div>
+        <div class="cfg-dot" data-dot="3"><span class="n">3</span></div>
+      </div>
+      <div class="cfg-panel active" data-step="1">
+        <div class="cfg-q">Wo liegt Ihr größter Engpass?</div>
+        <div class="cfg-cards">
+          <button class="cfg-card" data-engpass="kalk">Kalkulation und Angebote<span>Leistungsverzeichnisse, CAD zu Angebot</span></button>
+          <button class="cfg-card" data-engpass="dispo">Schichten und Disposition<span>Wer kann welche Schicht oder Maschine</span></button>
+          <button class="cfg-card" data-engpass="aufmass">Aufmaß und Leistungserfassung<span>Stunden und Mengen auf der Baustelle</span></button>
+          <button class="cfg-card" data-engpass="custom">Etwas anderes<span>Ein spezifischer Engpass ohne fertige Lösung</span></button>
+        </div>
+      </div>
+      <div class="cfg-panel" data-step="2">
+        <div class="cfg-q">In welcher Branche sind Sie?</div>
+        <div class="cfg-tags">
+          <button class="cfg-tag" data-branche="Tiefbau und Straßenbau">Tiefbau und Straßenbau</button>
+          <button class="cfg-tag" data-branche="Hochbau">Hochbau</button>
+          <button class="cfg-tag" data-branche="Metallbau">Metallbau</button>
+          <button class="cfg-tag" data-branche="GaLaBau">GaLaBau</button>
+          <button class="cfg-tag" data-branche="Anlagenbau und Industrie">Anlagenbau und Industrie</button>
+          <button class="cfg-tag" data-branche="Energie und Elektro">Energie und Elektro</button>
+          <button class="cfg-tag" data-branche="Logistik">Logistik</button>
+          <button class="cfg-tag" data-branche="Andere">Andere</button>
+        </div>
+        <div class="cfg-actions"><button class="btn btn-primary" id="cfgNext2" disabled>Weiter</button></div>
+      </div>
+      <div class="cfg-panel" data-step="3">
+        <div class="cfg-q">Wie viel Zeit verlieren Sie pro Woche durch diesen Engpass?</div>
+        <div class="cfg-slider-wrap">
+          <input type="range" id="cfgSlider" min="0" max="40" value="10" step="1" aria-label="Stunden pro Woche">
+          <div class="cfg-hours"><span id="cfgHours">10</span> <small>Std. pro Woche</small></div>
+        </div>
+        <div class="cfg-actions"><button class="btn btn-primary" id="cfgShow">Werkzeug-Vorschlag anzeigen</button></div>
+      </div>
+      <div class="cfg-panel" data-step="result">
+        <div class="cfg-result">
+          <div class="ey">Ihr Werkzeug-Vorschlag</div>
+          <div class="tool" id="cfgTool">UrKalk</div>
+          <p class="desc" id="cfgDesc"></p>
+          <div class="save" id="cfgSave"></div>
+          <a href="https://calendly.com/j-gruenberg-gruenbergsolutions/analysegesprach-grunberg-solutions-gmbh" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Kostenloses Erstgespräch anfordern</a>
+          <div><span class="cfg-reset" id="cfgReset">Nochmal von vorne</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="kontakt">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--accent);">Nächster Schritt</span>
+      <h2>Bereit für Ihr Erstgespräch?</h2>
+      <p>In 60 Minuten erklären wir Ihnen, wie wir Ihnen ein Werkzeug schaffen können, das genau Ihren Engpass löst.</p>
+      <a href="https://calendly.com/j-gruenberg-gruenbergsolutions/analysegesprach-grunberg-solutions-gmbh" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Kostenloses Erstgespräch anfordern</a>
+      <div class="cta-line">Oder direkt: <a href="tel:+4915255604258">+49 152 5560 4258</a> · <a href="mailto:kontakt@gruenbergsolutions.de">kontakt@gruenbergsolutions.de</a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="margin-bottom:16px;"><img src="/images/logo-gruenberg-solutions.png" alt="Logo Grünberg Solutions" style="height:32px;width:auto;" loading="lazy" decoding="async"></div>
+        <p>Grünberg Solutions. Maßgeschneiderte digitale Werkzeuge für den Mittelstand.</p>
+        <div class="addr">
+          Grünberg Solutions GmbH<br>
+          Großer Markt 16, 19348 Perleberg<br>
+          Amtsgericht Neuruppin · HRB 14971<br>
+          USt-ID: DE452419786<br>
+          <a href="tel:+4915255604258">+49 152 55604258</a> · <a href="mailto:kontakt@gruenbergsolutions.de">kontakt@gruenbergsolutions.de</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Werkzeuge</h5>
+        <ul><li><a href="#werkzeuge">Lösungen</a></li><li><a href="#vorgehen">Vorgehen</a></li><li><a href="#finder">Werkzeug-Finder</a></li><li><a href="#kontakt">Kontakt</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h5>Rechtliches</h5>
+        <ul><li><a href="/impressum">Impressum</a></li><li><a href="/datenschutz">Datenschutz</a></li><li><a href="/agb">AGB</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Grünberg Solutions GmbH. Alle Rechte vorbehalten.</span>
+      <span>Perleberg</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cc-banner" id="ccBanner" role="dialog" aria-live="polite" aria-label="Cookie-Einstellungen">
+  <h3>Wir respektieren Ihre Privatsphäre.</h3>
+  <p>Wir setzen nur notwendige Cookies ein, die für den Betrieb dieser Seite erforderlich sind. Statistik- oder Marketing-Cookies werden erst nach Ihrer Zustimmung aktiviert. Details in unserer <a href="/datenschutz">Datenschutzerklärung</a>.</p>
+  <div class="cc-actions">
+    <button class="cc-btn cc-btn-primary" id="ccAcceptAll">Alle akzeptieren</button>
+    <button class="cc-btn cc-btn-ghost" id="ccEssential">Nur essenzielle</button>
+    <button class="cc-btn cc-btn-link" id="ccToggleSettings">Einstellungen</button>
+  </div>
+  <div class="cc-settings" id="ccSettings">
+    <div class="cc-cat"><div class="cc-cat-info"><div class="t">Essenziell</div><div class="d">Technisch notwendig, um die Seite darzustellen. Immer aktiv.</div></div><label class="cc-switch"><input type="checkbox" checked disabled><span class="cc-slider"></span></label></div>
+    <div class="cc-cat"><div class="cc-cat-info"><div class="t">Statistik</div><div class="d">Helfen uns zu verstehen, wie Besucher die Seite nutzen. Optional.</div></div><label class="cc-switch"><input type="checkbox" id="ccStatistics"><span class="cc-slider"></span></label></div>
+    <div class="cc-cat"><div class="cc-cat-info"><div class="t">Marketing</div><div class="d">Ermöglichen personalisierte Inhalte und Kampagnen-Messung. Optional.</div></div><label class="cc-switch"><input type="checkbox" id="ccMarketing"><span class="cc-slider"></span></label></div>
+    <div style="margin-top:16px;"><button class="cc-btn cc-btn-primary" id="ccSaveSettings">Auswahl speichern</button></div>
+  </div>
+</div>
+<script>
+(function(){
+  var K='gs_cookie_consent_v1',b=document.getElementById('ccBanner'),s=document.getElementById('ccSettings'),st=document.getElementById('ccStatistics'),mk=document.getElementById('ccMarketing');
+  function save(c){c.timestamp=new Date().toISOString();c.version=1;try{localStorage.setItem(K,JSON.stringify(c));}catch(e){}window.__cookieConsent=c;window.dispatchEvent(new CustomEvent('cookieConsent',{detail:c}));b.classList.remove('visible');}
+  try{var e=JSON.parse(localStorage.getItem(K)||'null');if(e&&e.version===1){window.__cookieConsent=e;}else{b.classList.add('visible');}}catch(e){b.classList.add('visible');}
+  document.getElementById('ccAcceptAll').addEventListener('click',function(){save({essential:true,statistics:true,marketing:true});});
+  document.getElementById('ccEssential').addEventListener('click',function(){save({essential:true,statistics:false,marketing:false});});
+  document.getElementById('ccToggleSettings').addEventListener('click',function(){s.classList.toggle('visible');});
+  document.getElementById('ccSaveSettings').addEventListener('click',function(){save({essential:true,statistics:!!st.checked,marketing:!!mk.checked});});
+})();
+</script>
+<script>
+var nav=document.getElementById('nav');
+window.addEventListener('scroll',function(){ nav.classList.toggle('scrolled',window.scrollY>20); },{passive:true});
+var ro=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible','in-view'); ro.unobserve(e.target); } }); },{threshold:0.2,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(function(el){ ro.observe(el); });
+var rm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(!rm){
+  var so=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.style.opacity='1'; so.unobserve(e.target); } }); },{threshold:0.2,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.tools-grid .tool').forEach(function(el,i){ el.style.opacity='0'; el.style.transition='opacity 800ms cubic-bezier(0.16,1,0.3,1) '+(i*80)+'ms, transform 400ms cubic-bezier(0.16,1,0.3,1), box-shadow 400ms cubic-bezier(0.16,1,0.3,1), border-color 400ms ease'; so.observe(el); });
+}
+document.querySelectorAll('.tool .more').forEach(function(btn){ btn.addEventListener('click',function(){ btn.closest('.tool').classList.toggle('open'); }); });
+(function(){
+  var root=document.getElementById('cfg'); if(!root) return;
+  var state={engpass:null,branche:null,hours:10};
+  var panels=root.querySelectorAll('.cfg-panel'), dots=root.querySelectorAll('.cfg-dot');
+  function show(step){
+    panels.forEach(function(p){ p.classList.toggle('active',p.dataset.step===step); });
+    var idx={'1':1,'2':2,'3':3,'result':3}[step];
+    dots.forEach(function(d){ var n=parseInt(d.dataset.dot,10); d.classList.toggle('active',n===idx&&step!=='result'); d.classList.toggle('done',n<idx||step==='result'); });
+  }
+  root.querySelectorAll('.cfg-card').forEach(function(c){ c.addEventListener('click',function(){ state.engpass=c.dataset.engpass; root.querySelectorAll('.cfg-card').forEach(function(x){ x.classList.toggle('sel',x===c); x.classList.toggle('dim',x!==c); }); setTimeout(function(){ show('2'); },400); }); });
+  var next2=document.getElementById('cfgNext2');
+  root.querySelectorAll('.cfg-tag').forEach(function(t){ t.addEventListener('click',function(){ state.branche=t.dataset.branche; root.querySelectorAll('.cfg-tag').forEach(function(x){ x.classList.toggle('sel',x===t); }); next2.disabled=false; }); });
+  next2.addEventListener('click',function(){ show('3'); });
+  var slider=document.getElementById('cfgSlider'), hoursEl=document.getElementById('cfgHours');
+  slider.addEventListener('input',function(){ state.hours=parseInt(slider.value,10); hoursEl.textContent=state.hours; });
+  document.getElementById('cfgShow').addEventListener('click',function(){ compute(); show('result'); });
+  document.getElementById('cfgReset').addEventListener('click',function(){ state={engpass:null,branche:null,hours:10}; root.querySelectorAll('.cfg-card').forEach(function(x){ x.classList.remove('sel','dim'); }); root.querySelectorAll('.cfg-tag').forEach(function(x){ x.classList.remove('sel'); }); next2.disabled=true; slider.value=10; hoursEl.textContent=10; show('1'); });
+  function compute(){
+    var b=state.branche||'', e=state.engpass, tool='Schmiede', desc='';
+    if(e==='kalk'){
+      if(b==='Tiefbau und Straßenbau'||b==='Hochbau'){ tool='UrKalk Bau'; desc='UrKalk Bau kalkuliert Leistungsverzeichnisse im '+b+' auf Basis Ihrer historischen Aufträge. Ihr Kalkulator prüft den Vorschlag, statt jede Position von Hand aufzubauen.'; }
+      else if(b==='Metallbau'||b==='Anlagenbau und Industrie'){ tool='UrKalk Metall'; desc='UrKalk Metall liest CAD-Zeichnungen und Step-Files aus dem Bereich '+b+' und erzeugt daraus einen Angebotsentwurf mit Stückliste und Stundensätzen. Aus zwei Tagen Bearbeitung werden 30 Minuten Prüfzeit.'; }
+      else { tool='UrKalk Bau'; desc='UrKalk kalkuliert Angebote in der Branche '+(b||'Ihrem Betrieb')+' auf Basis Ihrer historischen Daten. Ihr Kalkulator bleibt im Lead, das Werkzeug liefert die Vorlage.'; }
+    } else if(e==='dispo'){ tool='Tagwerk'; desc='Tagwerk bildet die Skill-Matrix Ihres Teams ab und schlägt bei Ausfällen in der Branche '+(b||'Ihrem Betrieb')+' sehr schnell ein Reshuffling vor. Sie sehen sofort, wer welche Schicht oder Maschine übernehmen kann.'; }
+    else if(e==='aufmass'){ tool='Zollstock'; desc='Zollstock erfasst Aufmaß, Stunden und Mengen direkt auf der Baustelle und überträgt sie ohne Doppelpflege in die Abrechnung. Passt für '+(b||'Ihren Betrieb')+', eine Datenquelle, ein Datenstand.'; }
+    else { tool='Schmiede'; desc='In der Schmiede bauen wir ein eigenes Werkzeug für genau Ihren Engpass in der Branche '+(b||'Ihrem Betrieb')+', wenn keine Standard-Lösung passt. Web-App, mobile App, Portal oder Integration, nach Maß.'; }
+    var X=state.hours, Y=Math.round(X*4*0.6), Z=Math.round(X*4*0.75);
+    document.getElementById('cfgTool').textContent=tool;
+    document.getElementById('cfgDesc').textContent=desc;
+    document.getElementById('cfgSave').textContent='Bei '+X+' Stunden pro Woche durchschnittlichem Aufwand könnten Sie nach unserer Erfahrung erfahrungsgemäß 60 bis 75 Prozent davon einsparen, das sind grob '+Y+' bis '+Z+' Stunden Ihres Teams pro Monat.';
+  }
+})();
+</script>
+
+</body>
+</html>

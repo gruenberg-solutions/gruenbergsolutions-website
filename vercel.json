@@ -1,0 +1,208 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/impressum.html",
+      "destination": "/impressum",
+      "permanent": true
+    },
+    {
+      "source": "/datenschutz.html",
+      "destination": "/datenschutz",
+      "permanent": true
+    },
+    {
+      "source": "/agb.html",
+      "destination": "/agb",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/recruiting",
+      "destination": "/social-media-recruiting",
+      "permanent": true
+    },
+    {
+      "source": "/webseite",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/webseiten",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/website",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/webdesign",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/homepage",
+      "destination": "/webseite-erstellen-lassen",
+      "permanent": true
+    },
+    {
+      "source": "/film",
+      "destination": "/imagefilm",
+      "permanent": true
+    },
+    {
+      "source": "/filme",
+      "destination": "/imagefilm",
+      "permanent": true
+    },
+    {
+      "source": "/videoproduktion",
+      "destination": "/imagefilm",
+      "permanent": true
+    },
+    {
+      "source": "/recruiting-video",
+      "destination": "/recruitingvideo",
+      "permanent": true
+    },
+    {
+      "source": "/social-media",
+      "destination": "/social-media-betreuung",
+      "permanent": true
+    },
+    {
+      "source": "/social-recruiting",
+      "destination": "/social-media-recruiting",
+      "permanent": true
+    },
+    {
+      "source": "/recruiting-kampagne",
+      "destination": "/social-media-recruiting",
+      "permanent": true
+    },
+    {
+      "source": "/werbeagentur",
+      "destination": "/werbeagentur-prignitz",
+      "permanent": true
+    },
+    {
+      "source": "/agentur",
+      "destination": "/werbeagentur-prignitz",
+      "permanent": true
+    },
+    {
+      "source": "/werkzeuge",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bau",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/metall",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/elektro",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/industrie",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/handwerk",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/pflege",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/bank",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/verwaltung",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://arbeitsschutz.gruenbergsolutions.de; connect-src 'self'; frame-src https://calendly.com https://www.youtube-nocookie.com; media-src 'self'; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(png|jpg|jpeg|webp|svg|ico|woff2?|mp4)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(sitemap\\.xml|robots\\.txt)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)\\.(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

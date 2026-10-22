@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AGB | Grünberg Solutions GmbH</title>
+<meta name="description" content="Allgemeine Geschäftsbedingungen der Grünberg Solutions GmbH für Recruiting, Personalmarketing und Compliance-Leistungen." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://www.gruenbergsolutions.de/agb" />
+<style>
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --brand: #011F23;
+  --accent: #FF7319;
+  --text-mid: rgba(1,31,35,0.72);
+  --text-soft: rgba(1,31,35,0.6);
+  --border: rgba(0,0,0,0.06);
+  --bg-soft: #F5F5F0;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--brand);
+  background: #FFFFFF;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.page { max-width: 1200px; margin: 0 auto; padding: 64px 28px 120px; }
+.back { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-soft); margin-bottom: 32px; font-weight: 500; }
+.back:hover { color: var(--brand); text-decoration: none; }
+
+.agb-head { margin-bottom: 28px; }
+.agb-head h1 { font-size: clamp(34px, 4vw, 50px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 18px; }
+.agb-head .firma { color: var(--text-mid); font-size: 15px; line-height: 1.7; }
+.agb-head .firma strong { color: var(--brand); font-weight: 600; }
+
+.hinweis {
+  background: var(--bg-soft);
+  border-left: 3px solid var(--brand);
+  padding: 16px 24px;
+  margin: 32px 0 12px;
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--brand);
+  border-radius: 0 8px 8px 0;
+}
+.hinweis strong { font-weight: 700; }
+
+.content {
+  font-size: 16px;
+  max-width: 760px;
+  margin: 24px auto 0;
+}
+.content section { margin-top: 26px; }
+.content section:first-child { margin-top: 12px; }
+.content h2 {
+  font-size: clamp(16px, 1.4vw, 18px);
+  font-weight: 700;
+  color: var(--brand);
+  letter-spacing: 0;
+  line-height: 1.35;
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+  margin: 0 0 12px;
+}
+.content h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--brand);
+  margin: 18px 0 8px;
+  letter-spacing: 0.005em;
+}
+.content p {
+  color: var(--text-mid);
+  font-size: 15.5px;
+  margin-bottom: 10px;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+.content p strong { color: var(--brand); font-weight: 600; }
+.content p em { font-style: italic; }
+
+.abs {
+  position: relative;
+  padding-left: 36px;
+}
+.abs .num {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  color: var(--brand);
+  font-variant-numeric: tabular-nums;
+}
+
+ul.dash {
+  list-style: none;
+  margin: 10px 0 16px 36px;
+  padding: 0;
+}
+ul.dash li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  font-size: 15.5px;
+  color: var(--text-mid);
+  line-height: 1.65;
+}
+ul.dash li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+ul.dash li strong { color: var(--brand); font-weight: 600; }
+
+.agb-end { border: 0; border-top: 1px solid var(--border); margin: 64px 0 32px; }
+.agb-footer {
+  font-size: 14px;
+  color: var(--text-mid);
+  line-height: 1.7;
+}
+.agb-footer p { margin-bottom: 8px; }
+.agb-footer strong { color: var(--brand); font-weight: 600; }
+.agb-footer em { color: var(--brand); font-weight: 600; font-style: normal; }
+
+.print-header { display: none; }
+
+@media (max-width: 720px) {
+  .page { padding: 40px 18px 80px; }
+  .agb-head h1 { font-size: 30px; }
+  .content section { margin-top: 22px; }
+  .content h2 { font-size: 16px; padding-left: 10px; }
+  .content p { font-size: 15px; }
+  .abs { padding-left: 30px; }
+  ul.dash { margin-left: 30px; }
+  .hinweis { padding: 14px 18px; font-size: 14.5px; }
+}
+
+@media print {
+  body { background: white; color: #000; font-size: 10.5pt; line-height: 1.45; }
+  .page { padding: 0; max-width: none; }
+  .back { display: none !important; }
+  .content { max-width: none; font-size: 10.5pt; margin: 0; }
+  .agb-head { margin-bottom: 12pt; }
+  .agb-head h1 { font-size: 20pt; margin-bottom: 8pt; }
+  .hinweis { background: #f5f5f0; border-left: 2pt solid #011F23; padding: 8pt 12pt; margin: 8pt 0; font-size: 9.5pt; border-radius: 0; page-break-inside: avoid; }
+  .content section { margin-top: 14pt; page-break-inside: auto; }
+  .content h2 { font-size: 12pt; border-left: 2pt solid #FF7319; padding-left: 6pt; margin-bottom: 6pt; page-break-after: avoid; }
+  .content h3 { font-size: 10.5pt; margin: 8pt 0 4pt; page-break-after: avoid; }
+  .content p { font-size: 10pt; margin-bottom: 5pt; orphans: 3; widows: 3; }
+  .abs { padding-left: 26pt; }
+  ul.dash { margin-left: 26pt; }
+  ul.dash li { font-size: 10pt; padding-left: 14pt; }
+  .agb-end { display: none; }
+  .agb-footer { margin-top: 16pt; font-size: 9pt; border-top: 0.5pt solid #ccc; padding-top: 8pt; }
+  a { color: #000; text-decoration: none; }
+
+  .print-header {
+    display: block;
+    font-size: 9pt;
+    color: #555;
+    border-bottom: 0.5pt solid #ccc;
+    padding-bottom: 6pt;
+    margin-bottom: 14pt;
+  }
+  .print-header strong { color: #011F23; }
+
+  @page {
+    size: A4;
+    margin: 2cm 1.8cm 2.2cm;
+    @bottom-right {
+      content: "Seite " counter(page) " / " counter(pages);
+      font-family: 'Inter', sans-serif;
+      font-size: 8.5pt;
+      color: #777;
+    }
+    @bottom-left {
+      content: "AGB Grünberg Solutions GmbH";
+      font-family: 'Inter', sans-serif;
+      font-size: 8.5pt;
+      color: #777;
+    }
+  }
+}
+</style>
+<style id="gs-fontface">
+@font-face{font-family:'Inter';font-style:normal;font-weight:300;font-display:swap;src:url('/fonts/inter-300.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-400.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/inter-500.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/inter-600.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/inter-700.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:800;font-display:swap;src:url('/fonts/inter-800.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:900;font-display:swap;src:url('/fonts/inter-900.woff2') format('woff2');}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <a href="/" class="back">← Zurück zur Startseite</a>
+
+  <div class="print-header">
+    <strong>Grünberg Solutions GmbH</strong> · Großer Markt 16 · 19348 Perleberg · HRB 14971, Amtsgericht Neuruppin · USt-IdNr. DE452419786
+  </div>
+
+  <header class="agb-head">
+    <h1>Allgemeine Geschäftsbedingungen</h1>
+    <p class="firma"><strong>Grünberg Solutions GmbH</strong> · Großer Markt 16 · 19348 Perleberg<br>
+      HRB 14971, Amtsgericht Neuruppin · USt-IdNr. DE452419786<br>
+      Geschäftsführer: Jonas Grünberg</p>
+  </header>
+
+  <div class="hinweis">
+    <strong>Hinweis zum Anwendungsbereich:</strong> Diese Allgemeinen Geschäftsbedingungen gelten ausschließlich gegenüber Unternehmern im Sinne von § 14 BGB, juristischen Personen des öffentlichen Rechts und öffentlich-rechtlichen Sondervermögen. Verträge mit Verbrauchern werden nicht geschlossen. Sie regeln die Zusammenarbeit zwischen der Grünberg Solutions GmbH (nachfolgend "Agentur") und ihren Auftraggebern (nachfolgend "Kunde") im Bereich Recruiting, Personalmarketing, digitale Markenkommunikation und betriebliche Compliance-Unterstützung.
+  </div>
+
+    <main class="content">
+
+      <section>
+        <h2>§ 1 Geltungsbereich, Vertragsschluss, Vorrang</h2>
+        <p class="abs"><span class="num">(1)</span> Diese Allgemeinen Geschäftsbedingungen (nachfolgend "AGB") gelten für alle Geschäftsbeziehungen der Grünberg Solutions GmbH (nachfolgend "Agentur") mit ihren Auftraggebern (nachfolgend "Kunde"). Sie gelten in der zum Zeitpunkt des Vertragsschlusses gültigen oder jedenfalls in der dem Kunden zuletzt in Textform mitgeteilten Fassung als Rahmenvereinbarung auch für gleichartige künftige Verträge, ohne dass die Agentur im jeweiligen Einzelfall erneut auf sie hinweisen müsste.</p>
+        <p class="abs"><span class="num">(2)</span> Diese AGB gelten ausschließlich gegenüber Unternehmern im Sinne von § 14 BGB, juristischen Personen des öffentlichen Rechts und öffentlich-rechtlichen Sondervermögen. Mit Vertragsschluss versichert der Kunde, in dieser Eigenschaft zu handeln, und ist verpflichtet, die Agentur unverzüglich in Textform zu informieren, falls sich diese Eigenschaft während der Vertragslaufzeit ändert. Verträge mit Verbrauchern im Sinne von § 13 BGB werden von der Agentur nicht geschlossen.</p>
+        <p class="abs"><span class="num">(3)</span> Diese AGB gelten ausschließlich. Abweichende, entgegenstehende oder ergänzende Allgemeine Geschäftsbedingungen des Kunden werden nur dann und insoweit Vertragsbestandteil, als die Agentur ihrer Geltung ausdrücklich in Textform zugestimmt hat. Dieses Zustimmungserfordernis gilt auch dann, wenn die Agentur in Kenntnis der AGB des Kunden die Leistungen vorbehaltlos ausführt, Zahlungen entgegennimmt, Lieferungen vornimmt oder sonstige Erfüllungshandlungen vollzieht.</p>
+        <p class="abs"><span class="num">(4)</span> Im Einzelfall getroffene, individuelle Vereinbarungen mit dem Kunden (einschließlich Nebenabreden, Ergänzungen und Änderungen) haben Vorrang vor diesen AGB. Für den Inhalt solcher Vereinbarungen ist ein schriftlicher Vertrag oder eine Bestätigung in Textform durch die Geschäftsführung der Agentur oder eine schriftlich bevollmächtigte Person maßgebend.</p>
+        <p class="abs"><span class="num">(5)</span> Der Vertrag zwischen Agentur und Kunde kommt durch Annahme eines schriftlichen oder in Textform übermittelten Angebots der Agentur durch den Kunden zustande. Die Annahme kann insbesondere durch Unterzeichnung des Angebots, eine elektronische Signatur (z.B. DocuSign) oder eine ausdrückliche Bestätigung in Textform erfolgen. Angebote der Agentur sind freibleibend und unverbindlich, sofern sie nicht ausdrücklich als verbindlich bezeichnet sind. Die Bindungsfrist eines Angebots beträgt, sofern nicht abweichend angegeben, vierzehn (14) Tage ab Zugang.</p>
+        <p class="abs"><span class="num">(6)</span> Rechtserhebliche Erklärungen und Anzeigen des Kunden in Bezug auf den Vertrag (insbesondere Fristsetzung, Mängelanzeige, Rücktritt, Minderung, Kündigung) bedürfen der Schrift- oder Textform. Gesetzliche Formvorschriften und weitere Nachweise insbesondere bei Zweifeln über die Legitimation des Erklärenden bleiben unberührt.</p>
+        <p class="abs"><span class="num">(7)</span> Soweit in diesen AGB Fristen genannt sind, beziehen sich diese auf Werktage in Deutschland (Montag bis Freitag, ohne bundeseinheitliche gesetzliche Feiertage), sofern nicht ausdrücklich Kalendertage genannt sind.</p>
+      </section>
+
+      <section>
+        <h2>§ 2 Vertragsgegenstand und Leistungsbereiche</h2>
+        <p class="abs"><span class="num">(1)</span> Die Agentur erbringt Dienst- und Werkleistungen im Bereich Recruiting, Personalmarketing, digitale Markenkommunikation und betriebliche Compliance-Unterstützung für mittelständische Unternehmen aus Agrar, Bau, Handwerk, Industrie, Dienstleistung und vergleichbaren Branchen. Der konkrete Leistungsumfang ergibt sich aus dem jeweils mit dem Kunden geschlossenen Einzelvertrag (Angebot mit Annahme), den darin enthaltenen Leistungsbeschreibungen sowie ergänzenden Briefings und Abstimmungen zwischen den Parteien. Leistungen, die nicht ausdrücklich vereinbart sind, sind nicht geschuldet.</p>
+        <p class="abs"><span class="num">(2)</span> Die rechtliche Einordnung der einzelnen Leistung als Dienst- oder Werkvertrag richtet sich nach dem konkreten Inhalt der Leistung. Laufende Recruiting-, Personalmarketing- und Beratungsleistungen werden grundsätzlich als Dienstleistungen im Sinne von §§ 611 ff. BGB erbracht; die Agentur schuldet die ordnungsgemäße Tätigkeit, nicht den wirtschaftlichen Erfolg. Werkleistungen im Sinne von §§ 631 ff. BGB werden ausschließlich dort erbracht, wo dies aus dem Einzelvertrag konkret hervorgeht (insbesondere Webdesign-Projekte mit definiertem Liefergegenstand, abgeschlossene Videoproduktionen mit fertiger Schnittfassung, Workshops mit definierter Übergabe).</p>
+        <p class="abs"><span class="num">(3)</span> Konkrete Erfolge oder Kennzahlen sind, soweit nicht ausdrücklich und schriftlich anders vereinbart, nicht geschuldet. Dies gilt insbesondere für eine bestimmte Anzahl von Bewerbungen, qualifizierten Bewerbern, Einstellungen, Reichweiten, Klickraten, Conversions, Leads, Umsatzsteigerungen oder sonstige wirtschaftliche Ergebnisse. Eine etwaige in einem Einzelvertrag oder gemäß § 13 dieser AGB vereinbarte Garantie- oder Kulanzleistung begründet ausdrücklich keinen geschuldeten Erfolg, sondern eine zusätzliche freiwillige Leistung der Agentur unter den dort genannten Voraussetzungen. Eine Garantie für eine bestimmte Beschaffenheit oder Haltbarkeit im Sinne von §§ 443, 276 Abs. 1 S. 1 BGB übernimmt die Agentur ausschließlich dann, wenn dies ausdrücklich und schriftlich als solche bezeichnet ist.</p>
+        <p class="abs"><span class="num">(4)</span> Die Leistungen der Agentur umfassen insbesondere die folgenden, in Einzelverträgen einzeln oder in Kombination zu vereinbarenden Leistungsbereiche:</p>
+
+        <h3>a) Social Recruiting / KI Connect</h3>
+        <p>Konzeption, Aufsetzen, Betreuung und Auswertung digitaler Recruiting- und Personalmarketing-Kampagnen auf sozialen Netzwerken und vergleichbaren Plattformen, einschließlich Erstellung von Werbeinhalten (Captions, Visuals, Videos), Definition und Steuerung von Zielgruppen, Performance-Analyse, Reporting sowie laufender Optimierung. Die Agentur erbringt Leistungen als Werbe- und Marketingdienstleister; das Setzen von Werbeschaltungen erfolgt mittels durch den Kunden bereitgestellter oder finanzierter Werbebudgets gemäß § 7 dieser AGB.</p>
+
+        <h3>b) Karriereseiten und Webdesign</h3>
+        <p>Konzeption, Gestaltung und technische Umsetzung von Karriereseiten, Landingpages und Unternehmenswebsites, einschließlich Einbindung von Bewerber-Funnels, Tracking-Komponenten und Schnittstellen zu Recruiting-Tools. Sofern nicht anders vereinbart, umfasst der Leistungsumfang ausschließlich die technische Erstellung; Hosting, laufende Wartung, Pflege, Aktualisierung von Rechtstexten, Einrichtung und Pflege von Cookie-Bannern sowie laufende Sicherheits-Updates sind nur dann geschuldet, wenn dies ausdrücklich vereinbart ist. Die Verantwortlichkeit für rechtskonforme Inhalte richtet sich nach § 6 dieser AGB.</p>
+
+        <h3>c) Videoproduktion und Content Production</h3>
+        <p>Konzeption, Vorproduktion, Produktion (Drehtage), Postproduktion, Bearbeitung und Auslieferung von Bewegtbild- und Bildmaterial, einschließlich Animationen, Untertiteln und Plattform-spezifischen Anpassungen. Storyboards, Spezial-Animationen, Plattform-Adaptionen und über die vereinbarten Schnittfassungen hinausgehende Änderungswünsche sind gesondert zu vereinbaren und zu vergüten. Die besonderen Pflichten des Kunden bei Drehtagen ergeben sich aus § 5 dieser AGB.</p>
+
+        <h3>d) Compliance-Module (SafeGuard, RiskGuard, DocGuard)</h3>
+        <p>Bereitstellung digitaler Tools und Vorlagen zur Unterstützung des Kunden bei der Erfüllung betrieblicher Pflichten in den Bereichen Arbeitsschutz, Gefahrstoffmanagement, Bewerber- und Mitarbeiter-Onboarding sowie Dokumentations-Compliance. <strong>Die Agentur erbringt ausdrücklich keine Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG).</strong> Die rechtliche Bewertung der Compliance-Pflichten und die finale rechtliche Verantwortung obliegen allein dem Kunden bzw. von ihm beauftragten Rechtsberatern. Die Agentur leistet keine Gewähr für die Vollständigkeit, Aktualität oder rechtliche Richtigkeit der bereitgestellten Vorlagen im Einzelfall des Kunden. Bereitgestellte Mustertexte ersetzen keine individuelle anwaltliche Prüfung.</p>
+
+        <h3>e) Strategie-Beratung, Workshops und Schulungen</h3>
+        <p>Beratungs-, Workshop- und Schulungsleistungen zu Themen des Recruitings, des Personalmarketings, der Markenkommunikation und der digitalen Sichtbarkeit, in Präsenz oder digital. Beratungs- und Workshop-Ergebnisse sind unverbindliche Empfehlungen; eine Erfolgshaftung wird nicht übernommen. Die Inhalte stellen keine Rechtsberatung im Sinne des RDG dar.</p>
+
+        <p class="abs"><span class="num">(5)</span> Die Agentur ist berechtigt, im Rahmen einzelner Leistungsbereiche eigene branchenübliche kreative und konzeptionelle Gestaltungsfreiheit auszuüben. Mängelansprüche bei künstlerischen oder konzeptionellen Gestaltungen bestehen nur, soweit diese wesentlich von zuvor vereinbarten oder dem Kunden vorgestellten Konzepten abweichen und die Abweichung nicht auf technische Ursachen, fehlende Rechtseinräumung Dritter oder mangelnde Mitwirkung des Kunden zurückzuführen ist. Subjektive Gestaltungsempfindungen des Kunden ohne objektivierbare Abweichung vom vereinbarten Konzept stellen keinen Mangel dar.</p>
+        <p class="abs"><span class="num">(6)</span> Nachträgliche Änderungen des vereinbarten Leistungsumfangs ("Change Request") bedürfen der Zustimmung der Agentur in Textform. Hierdurch entstehende Mehraufwände werden gemäß der jeweils gültigen Stundensatz-Liste der Agentur, ersatzweise nach marktüblichen Sätzen, abgerechnet. Anzahl, Umfang und Modalitäten kostenfreier Korrekturschleifen ergeben sich, soweit überhaupt vorgesehen, ausschließlich aus dem Einzelvertrag. Weitergehende Korrekturwünsche werden nach Aufwand abgerechnet.</p>
+      </section>
+
+      <section>
+        <h2>§ 3 Untervergabe und Subunternehmer</h2>
+        <p class="abs"><span class="num">(1)</span> Die Agentur ist berechtigt, zur Erfüllung der vertraglichen Leistungen ohne gesonderte Zustimmung des Kunden Subunternehmer, freie Mitarbeiter und sonstige Dritte einzusetzen. Diese sind Erfüllungs- bzw. Verrichtungsgehilfen der Agentur. Die Verantwortlichkeit der Agentur gegenüber dem Kunden bleibt im Rahmen der gesetzlichen Vorschriften und der Bestimmungen dieser AGB unberührt.</p>
+        <p class="abs"><span class="num">(2)</span> Sofern Leistungen unter Beteiligung von Künstlern, Models, Influencern, Bildbearbeitern oder vergleichbaren Mitwirkenden erbracht werden, weist die Agentur den Kunden darauf hin, dass an die Künstlersozialkasse nach dem Künstlersozialversicherungsgesetz (KSVG) Abgaben zu leisten sein können. Soweit der Kunde Verwerter im Sinne des KSVG ist, obliegt die Anmeldung und Abführung dieser Abgaben allein dem Kunden. Eine Verrechnung dieser Abgaben mit Forderungen der Agentur ist ausgeschlossen.</p>
+        <p class="abs"><span class="num">(3)</span> Die Agentur ist berechtigt, im Rahmen der Werbebudget-Verwaltung Konten Dritter (insbesondere Plattformen wie Meta, Google, TikTok, LinkedIn) sowie technische Dienstleister (z.B. Hosting-Provider, CRM-Anbieter) einzubinden. Eine eigenständige Vertragsbeziehung zwischen dem Kunden und diesen Dritten kommt nur dann zustande, wenn dies ausdrücklich vereinbart ist.</p>
+      </section>
+
+      <section>
+        <h2>§ 4 Allgemeine Mitwirkungspflichten des Kunden</h2>
+        <p class="abs"><span class="num">(1)</span> Der Kunde wird die Agentur bei der Erbringung der vertraglichen Leistungen umfassend und in der erforderlichen Qualität unterstützen. Insbesondere stellt der Kunde der Agentur sämtliche zur Leistungserbringung benötigten Informationen, Materialien, Inhalte, Zugänge, Daten, Logos, Bilder, Videos, Stellenanzeigen-Inhalte, Markenrechte, Locations und sonstigen Arbeitsmaterialien rechtzeitig, vollständig und in geeigneter Form zur Verfügung. Die Mitwirkungspflichten des Kunden sind echte Hauptpflichten und keine bloßen Obliegenheiten.</p>
+        <p class="abs"><span class="num">(2)</span> Soweit nicht abweichend vereinbart, sind angeforderte Informationen und Freigaben vom Kunden innerhalb von fünf (5) Werktagen ab Anforderung zu erteilen. Bei zeitkritischen Kampagnen-Bestandteilen (insbesondere laufenden Werbekampagnen, Bewerber-Rückmeldungen, Korrekturschleifen mit definierter Veröffentlichungs-Deadline) verkürzt sich diese Frist auf zwei (2) Werktage. Verspätete Mitwirkung berechtigt die Agentur zur entsprechenden Fristverlängerung sowie zur Inrechnungstellung des dadurch entstehenden Mehraufwands gemäß ihrer aktuellen Stundensatz-Liste, ersatzweise nach marktüblichen Sätzen.</p>
+        <p class="abs"><span class="num">(3)</span> Der Kunde versichert, zur Bereitstellung der Arbeitsmaterialien berechtigt zu sein und mit der vertragsgemäßen Nutzung keine Rechte Dritter zu verletzen. Eine Prüfung der rechtlichen Zulässigkeit der vom Kunden bereitgestellten Inhalte (insbesondere im Hinblick auf Urheber-, Marken-, Persönlichkeits-, Wettbewerbs-, Datenschutz-, Lebensmittel-, Heilmittelwerbe-, Bauwerbe- und Antidiskriminierungsrecht) führt die Agentur nicht durch und schuldet sie nicht. § 17 dieser AGB bleibt unberührt.</p>
+        <p class="abs"><span class="num">(4)</span> Wiederholte oder erhebliche Verstöße gegen Mitwirkungspflichten berechtigen die Agentur, die Leistungserbringung bis zur Erfüllung der Mitwirkungspflicht auszusetzen sowie nach erfolgloser Mahnung in Textform mit angemessener Fristsetzung den Vertrag aus wichtigem Grund zu kündigen. Bereits erbrachte Leistungen bleiben in vollem Umfang vergütungspflichtig. Die Agentur ist berechtigt, durch verspätete oder mangelhafte Mitwirkung des Kunden verursachte Mehraufwände, Wartezeiten und ungenutzte Produktionsfenster nach ihrer aktuellen Stundensatz-Liste in Rechnung zu stellen.</p>
+        <p class="abs"><span class="num">(5)</span> Der Kunde ist verpflichtet, alle vereinbarten Termine (insbesondere Strategie-Workshops, Drehtage, Quali-Termine, Onboarding-Calls, Reporting-Calls und Abstimmungstermine) wahrzunehmen oder sich rechtzeitig vertreten zu lassen. Stornierungen sind in Textform mitzuteilen. Stornierungspauschalen ergeben sich aus § 10.</p>
+        <p class="abs"><span class="num">(6)</span> Der Kunde ist verpflichtet, sämtliche von der Agentur übergebenen Daten, Konzepte, Quelldateien und Auslieferungen ordnungsgemäß zu sichern. Die Agentur schuldet keine eigene Datensicherung der Kundendaten über die laufende Vertragsbearbeitung hinaus. Nach Vertragsende ist die Agentur berechtigt, projektspezifische Arbeitsdateien jederzeit zu löschen, soweit nicht gesetzliche Aufbewahrungspflichten oder eine ausdrückliche Vereinbarung entgegenstehen. Eine Pflicht zur Herausgabe von Quelldateien, Arbeitsfassungen oder Roh-Material besteht nicht; es gilt § 16.</p>
+      </section>
+
+      <section>
+        <h2>§ 5 Besondere Pflichten bei Dreh- und Produktionstagen</h2>
+        <p class="abs"><span class="num">(1)</span> Bei Drehtagen, Foto-Produktionen und vergleichbaren Aufnahme-Terminen treffen den Kunden über § 4 hinausgehende, gesteigerte Mitwirkungspflichten. Die Agentur erbringt ihre Produktionsleistung im Vertrauen darauf, dass alle nachfolgend genannten Voraussetzungen vom Kunden vor Beginn des Drehtages eigenverantwortlich, vollständig und rechtswirksam geschaffen wurden. <strong>Eine eigenständige Prüfung dieser Voraussetzungen durch die Agentur erfolgt nicht und ist nicht geschuldet.</strong></p>
+        <p class="abs"><span class="num">(2)</span> <strong>Persönlichkeitsrechte und Recht am eigenen Bild.</strong> Der Kunde versichert ausdrücklich, dass für sämtliche am Drehtag aufzunehmenden Personen (Mitarbeiter, Auszubildende, Geschäftsführer, Gesellschafter, Dritte) eine schriftliche oder dokumentierte Einwilligung in die Aufnahme, Bearbeitung, Speicherung und Veröffentlichung der entstehenden Bild- und Tonaufnahmen für die vertraglich vereinbarten Zwecke (insbesondere Recruiting-Kampagnen, Veröffentlichung auf sozialen Netzwerken, Karriereseiten, Werbeanzeigen) vorliegt. Die Einwilligung muss den Anforderungen von § 22 KUG, Art. 6 Abs. 1 lit. a, Art. 7 DSGVO sowie Art. 9 DSGVO (soweit besondere Kategorien personenbezogener Daten betroffen sind) genügen.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Arbeitsrechtliche und betriebsverfassungsrechtliche Aspekte.</strong> Der Kunde versichert weiter, dass etwaige arbeitsvertragliche Freistellungen, Mitbestimmungsrechte des Betriebsrats nach §§ 87 Abs. 1 Nr. 6, 75 Abs. 2 BetrVG, Beteiligungsrechte der Schwerbehindertenvertretung sowie sämtliche sonstigen mitbestimmungs-, arbeitsschutz-, jugendarbeitsschutz- und versicherungsrechtlichen Voraussetzungen beachtet sind. Die Verantwortung für die rechtswirksame Freistellung von Mitarbeitern für den Drehtag liegt ausschließlich beim Kunden.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Geschäftsgeheimnisse, Räumlichkeiten, Maschinen.</strong> Der Kunde ist verpflichtet, vor dem Drehtag eigenverantwortlich zu prüfen und sicherzustellen, dass im Bildausschnitt der Aufnahmen keine Geschäfts- oder Betriebsgeheimnisse, vertraulichen Daten, Mandantendaten, Patientendaten, Mitarbeiterlisten, Lohnabrechnungen, geschützten Konstruktionen, urheber- oder markenrechtlich geschützten Werke Dritter oder sonstigen Inhalte erscheinen, die nicht zur Veröffentlichung bestimmt sind. Werden derartige Inhalte trotz dieser Pflicht aufgenommen, erfolgt deren Bearbeitung oder Entfernung gegen gesonderte Vergütung nach Aufwand.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Ortsrecht und Drittrechte.</strong> Der Kunde stellt sicher, dass für sämtliche Drehorte (eigene Betriebsstätten, fremde Liegenschaften, Außenbereiche, öffentlicher Raum) die erforderlichen Genehmigungen, Hausrechte, Haftpflicht-Absicherungen, Gestattungen Dritter (z.B. Vermieter, Verpächter, Kunden) sowie etwaige Drehgenehmigungen öffentlicher Stellen rechtzeitig vor Beginn des Drehtags vorliegen. Bei Aufnahmen auf landwirtschaftlich oder gewerblich genutzten Flächen versichert der Kunde, dass kein Verstoß gegen Tierschutz-, Hygiene-, Lebensmittel-, Bau- oder Sicherheitsvorschriften erfolgt.</p>
+        <p class="abs"><span class="num">(6)</span> <strong>Arbeitssicherheit und Berufsgenossenschaft.</strong> Bei Drehs in produzierenden, handwerklichen, agrarischen, baulichen oder vergleichbar gefährdungsrelevanten Umfeldern hat der Kunde vor Drehbeginn eine Sicherheitsunterweisung der Agentur und ihrer Mitarbeiter durchzuführen oder durchzuführen zu lassen, etwa erforderliche persönliche Schutzausrüstung bereitzustellen und auf besondere Gefahren hinzuweisen. Die Agentur ist berechtigt, den Drehtag bis zur Schaffung sicherer Drehbedingungen zu unterbrechen oder abzubrechen, ohne dass dies einen Mangel der Leistung darstellt; die Vergütung bleibt in vollem Umfang geschuldet.</p>
+        <p class="abs"><span class="num">(7)</span> <strong>Widerruf von Einwilligungen.</strong> Widerruft eine aufgenommene Person nach Abschluss des Drehtages eine zuvor erteilte Einwilligung, ist der Kunde verpflichtet, die Agentur unverzüglich, spätestens jedoch innerhalb von achtundvierzig (48) Stunden nach Kenntnis, in Textform zu informieren. Die Entfernung, Anonymisierung oder Neubearbeitung des betroffenen Materials erfolgt durch die Agentur ausschließlich gegen gesonderte Vergütung nach Aufwand. Eine Verpflichtung der Agentur zur kostenfreien Neuproduktion oder Erstattung bereits gezahlter Vergütung besteht nicht.</p>
+        <p class="abs"><span class="num">(8)</span> <strong>Freistellung.</strong> Der Kunde stellt die Agentur, ihre Geschäftsführung, Mitarbeiter und Subunternehmer von sämtlichen Ansprüchen Dritter (insbesondere von aufgenommenen Personen, Betriebsräten, Gewerkschaften, Berufsgenossenschaften, Aufsichtsbehörden, Eigentümern und Nutzern der Drehlocation) frei, die im Zusammenhang mit der Verletzung der Pflichten dieses § 5 entstehen. Die Freistellung umfasst auch angemessene Kosten der Rechtsverteidigung. Eine eigene Haftung der Agentur ist insoweit ausgeschlossen, soweit nicht zwingende gesetzliche Regelungen eine Haftung vorschreiben.</p>
+        <p class="abs"><span class="num">(9)</span> <strong>Versicherung.</strong> Der Kunde sorgt eigenverantwortlich für eine ausreichende Haftpflicht-Versicherung der Drehlocation und der dort tätigen Personen gegen Schäden, die im Zusammenhang mit den Aufnahmen entstehen können. Die Agentur unterhält im Rahmen ihrer Geschäftstätigkeit eine eigene Betriebshaftpflicht; eine darüber hinausgehende Versicherung des Kundenrisikos schuldet sie nicht.</p>
+      </section>
+
+      <section>
+        <h2>§ 6 Besondere Pflichten bei Webseiten, Karriereseiten und Rechtstexten</h2>
+        <p class="abs"><span class="num">(1)</span> Soweit die Agentur im Rahmen ihrer Leistungen Karriereseiten, Landingpages, Bewerber-Funnels oder sonstige Web-Auftritte für den Kunden erstellt, bezieht sich der geschuldete Leistungsumfang ausschließlich auf die technische und gestalterische Umsetzung. <strong>Sämtliche auf der Webseite erscheinenden Rechtstexte (insbesondere Impressum, Datenschutzerklärung, AGB, Cookie-Richtlinie, Hinweise nach §§ 5, 6 TMG, § 18 MStV, DSGVO, TTDSG, Digital Services Act und vergleichbare Vorschriften) liegen ausschließlich in der inhaltlichen und rechtlichen Verantwortung des Kunden.</strong></p>
+        <p class="abs"><span class="num">(2)</span> Soweit die Agentur Rechtstexte des Kunden auf der Webseite einbindet, erfolgt dies ausschließlich als technische Platzierung der vom Kunden zur Verfügung gestellten oder durch den Kunden freigegebenen Inhalte. Die Agentur prüft diese Rechtstexte weder auf Vollständigkeit noch auf rechtliche Aktualität, Richtigkeit oder Eignung für die konkrete Webseite und das konkrete Geschäftsmodell des Kunden. Eine Beratung zur Erforderlichkeit, zum Inhalt oder zur Aktualisierung von Rechtstexten ist nicht geschuldet und stellt keine Rechtsberatung im Sinne des RDG dar.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Mustertexte.</strong> Soweit die Agentur dem Kunden Mustertexte oder Vorlagen für Impressum, Datenschutzerklärung, Cookie-Banner oder vergleichbare Rechtstexte zur Verfügung stellt, geschieht dies ausschließlich als unverbindliche Hilfestellung und nicht als Rechtsberatung. Der Kunde ist verpflichtet, diese Mustertexte vor Veröffentlichung durch eine fachkundige Person (insbesondere Rechtsanwalt oder Datenschutzbeauftragten) prüfen und an seine konkreten Verhältnisse anpassen zu lassen. Die Agentur übernimmt keine Gewähr für die Rechtskonformität der Mustertexte.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Cookie-Banner und Tracking.</strong> Die Einrichtung, Konfiguration und laufende Pflege von Cookie-Bannern, Consent-Management-Plattformen, Tracking-Pixeln, Analyse-Tools (z.B. Google Analytics, Meta Pixel) und vergleichbaren Komponenten erfolgt ausschließlich nach den ausdrücklichen Vorgaben des Kunden. Der Kunde ist allein verantwortlich dafür, dass die Konfiguration den Anforderungen der DSGVO, des TTDSG und etwaiger einschlägiger EuGH- und BGH-Rechtsprechung (insbesondere zur Einwilligungspflicht für nicht zwingend erforderliche Cookies) entspricht. Eine eigenständige rechtliche Prüfung, eine laufende Beobachtung der Rechtsprechung oder eine Hinweispflicht der Agentur auf etwaige Risiken bestehen nicht.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Hosting und Wartung.</strong> Hosting, fortlaufende Pflege, Sicherheits-Updates, Aktualisierung von Plugins, Behebung von Sicherheitslücken, regelmäßige Backups, SSL-Verlängerungen, DNS-Pflege und vergleichbare laufende Leistungen sind nur dann Bestandteil des Vertrages, wenn dies ausdrücklich vereinbart ist. Soweit kein gesonderter Wartungsvertrag besteht, übernimmt die Agentur nach Übergabe der Webseite keinerlei Verantwortung für deren laufende technische Funktionsfähigkeit, Sicherheit oder Aktualität. Die Verantwortung für die laufende rechtliche und technische Pflege geht mit Übergabe (oder Inbetriebnahme im Sinne von § 14 Abs. 5) auf den Kunden über.</p>
+        <p class="abs"><span class="num">(6)</span> <strong>Abmahnungen, behördliche Verfahren, Bußgelder.</strong> Wird die Agentur, ihre Geschäftsführung, ihre Mitarbeiter oder Subunternehmer wegen Inhalten, Funktionen oder Konfigurationen einer für den Kunden erstellten oder betreuten Webseite (insbesondere wegen unzulässiger Cookies, fehlender oder unvollständiger Rechtstexte, Verstößen gegen Wettbewerbs-, Marken-, Urheber- oder Datenschutzrecht, fehlender Barrierefreiheit nach BFSG) abgemahnt, gerichtlich oder behördlich in Anspruch genommen oder mit Bußgeldern belegt, stellt der Kunde die Agentur auf erstes Anfordern in vollem Umfang frei. Die Freistellung umfasst Hauptforderung, Abmahnkosten, Anwaltskosten, Gerichtskosten, Vertragsstrafen und sonstige damit zusammenhängende Kosten. Die Agentur ist in der Wahl der Verteidigungsstrategie und des Anwalts frei; eine Pflicht zur Vorabinformation oder zur Abstimmung mit dem Kunden besteht nicht.</p>
+        <p class="abs"><span class="num">(7)</span> <strong>Barrierefreiheit (BFSG).</strong> Eine Verpflichtung zur Einhaltung der Anforderungen des Barrierefreiheitsstärkungsgesetzes (BFSG), des Behindertengleichstellungsgesetzes (BGG) oder vergleichbarer Vorschriften besteht nur, soweit dies ausdrücklich im Einzelvertrag vereinbart ist. Im Übrigen liegt die Bewertung der Anwendbarkeit dieser Vorschriften auf das Geschäftsmodell des Kunden in dessen alleiniger Verantwortung.</p>
+        <p class="abs"><span class="num">(8)</span> <strong>Domain und Zugangsdaten.</strong> Der Kunde ist Inhaber sämtlicher Domains, Hosting-Verträge, Zertifikate und Zugangsdaten, soweit nicht ausdrücklich eine Treuhand-Vereinbarung getroffen ist. Werden Domains, Zertifikate oder Zugangsdaten zur Vertragsdurchführung über Konten der Agentur registriert oder verwaltet, erfolgt dies treuhänderisch im Auftrag des Kunden; die Kosten trägt der Kunde. Bei Vertragsende werden die Zugänge auf den Kunden übertragen, soweit dieser sämtliche offenen Forderungen beglichen hat.</p>
+        <p class="abs"><span class="num">(9)</span> <strong>Inhaltliche Konformität von Stellenanzeigen.</strong> Sämtliche Stellenanzeigen, Bewerber-Ansprachen, Captions und Karriereseiten-Inhalte werden vor Veröffentlichung dem Kunden zur Freigabe vorgelegt. Die Freigabe in Textform durch eine vertretungsberechtigte oder ausdrücklich bevollmächtigte Person des Kunden gilt als verbindliche Bestätigung, dass die Inhalte den Anforderungen des Allgemeinen Gleichbehandlungsgesetzes (AGG), des Bundesdatenschutzgesetzes, der DSGVO, des UWG, des Wettbewerbsrechts und sonstiger anwendbarer Vorschriften entsprechen. Eine eigenständige rechtliche Prüfung durch die Agentur erfolgt nicht.</p>
+      </section>
+
+      <section>
+        <h2>§ 7 Werbebudget und Plattformleistungen Dritter</h2>
+        <p class="abs"><span class="num">(1)</span> Werbebudgets, die zur Schaltung von Anzeigen auf Plattformen Dritter (insbesondere Meta Platforms Inc., Google LLC, TikTok Pte. Ltd., LinkedIn Corp. und vergleichbare Anbieter) erforderlich sind, sind nicht in den Agenturkosten enthalten und werden nicht von der Agentur geschuldet. Sie sind vom Kunden gesondert zu tragen.</p>
+        <p class="abs"><span class="num">(2)</span> Soweit der Kunde die Agentur damit beauftragt, Werbeschaltungen auf seinen Namen oder seine Rechnung vorzunehmen, ist der Kunde dafür verantwortlich, dass die hierfür erforderlichen Werbekonten, Zahlungsmittel und Plattform-Zugänge in funktionsfähigem Zustand vorgehalten werden. Soweit Werbebudgets über Konten der Agentur abgerechnet werden, ist der entsprechende Betrag nach Wahl der Agentur entweder im Voraus zu erstatten oder dem Kunden gesondert in Rechnung zu stellen, getrennt ausgewiesen von den Agenturkosten.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Plattform-Risiken.</strong> Sperrungen, Einschränkungen, Reichweitenverluste, Kontoschließungen, algorithmische Veränderungen, Preisänderungen, Targeting-Beschränkungen, Anzeigen-Ablehnungen, technische Ausfälle, Verlust von Werbe-Identifiers, Plattform-Migrationen, gesetzlich oder behördlich angeordnete Beschränkungen (insbesondere DSA-Maßnahmen, Daten-Übertragungs-Restriktionen) oder sonstige Eingriffe der Plattform-Betreiber liegen außerhalb des Einflussbereichs der Agentur und stellen keinen Mangel der Agenturleistung dar. Die Agentur haftet insoweit nicht und schuldet auch keine Abhilfe-, Wiederherstellungs- oder Mitigationsmaßnahmen. Etwaige Bemühungen der Agentur um Wiederherstellung erfolgen ausschließlich auf freiwilliger Basis ohne Rechtsbindungswillen.</p>
+        <p class="abs"><span class="num">(4)</span> Die Agentur übernimmt keine Garantie für eine bestimmte Reichweite, einen bestimmten Tausender-Kontakt-Preis (CPM), Cost-per-Click (CPC), Cost-per-Lead (CPL) oder eine bestimmte Anzahl von Bewerbungen. Hierauf bezogene Aussagen aus Vergleichswerten oder Erfahrungsberichten sind unverbindliche Schätzungen und stellen keine Beschaffenheits- oder Haltbarkeitsgarantie im Sinne von § 443 BGB dar.</p>
+        <p class="abs"><span class="num">(5)</span> Sofern Werbebudget aufgrund von Plattform-Eingriffen, vom Kunden zu vertretender Verzögerungen, Inhaltsänderungen, fehlender Mitwirkung oder verspäteter Freigaben nicht oder nicht im vereinbarten Zeitraum verausgabt werden kann, entsteht hieraus kein Erstattungsanspruch des Kunden gegen die Agentur. Bereits an die Plattform abgeführte Beträge sind ausschließlich gegenüber dem Plattform-Betreiber geltend zu machen.</p>
+        <p class="abs"><span class="num">(6)</span> Sperrungen oder Einschränkungen eines vom Kunden gestellten oder kontrollierten Werbekontos berechtigen die Agentur, die Leistungserbringung bis zur Wiederherstellung des Kontozugriffs auszusetzen oder, soweit dies wirtschaftlich geboten ist, ein neues Werbekonto zu beantragen; die hierdurch entstehenden Aufwände trägt der Kunde.</p>
+      </section>
+
+      <section>
+        <h2>§ 8 Pflichten bei Bewerber-Kommunikation</h2>
+        <p class="abs"><span class="num">(1)</span> Bei Recruiting-Kampagnen verpflichtet sich der Kunde, eingehende Bewerbungen unverzüglich, spätestens jedoch innerhalb von achtundvierzig (48) Stunden ab Eingang während üblicher Geschäftszeiten, eigenständig zu sichten und mit den Bewerbern Kontakt aufzunehmen, soweit nicht ausdrücklich abweichend vereinbart. Bewerber-Reaktionen außerhalb dieser Frist gelten als rechtzeitig nur, wenn sie auf einen Werktag mit gesetzlichem Feiertag oder ein vorab schriftlich angekündigtes Abwesenheitsfenster fallen.</p>
+        <p class="abs"><span class="num">(2)</span> Soweit die Agentur dem Kunden ein Onboarding- oder Bewerber-Management-Tool zur Verfügung stellt (z.B. DocGuard), wird der Kunde dieses ordnungsgemäß einrichten und nutzen. Eine ausschließlich manuelle Bearbeitung der Bewerbungen durch den Kunden außerhalb des bereitgestellten Tools entbindet den Kunden nicht von den Pflichten dieses § 8.</p>
+        <p class="abs"><span class="num">(3)</span> Bei Verstoß gegen die Pflichten dieses § 8 entfallen etwaige Garantie- oder Kulanzansprüche des Kunden gemäß § 13 vollständig, soweit der Kunde nicht nachweist, dass der Verstoß für den Erfolg der Kampagne nicht ursächlich war. Die Agentur ist berechtigt, bei wiederholten Verstößen die Kampagne bis zur nachweislichen Wiederherstellung einer ordnungsgemäßen Bewerber-Kommunikation auszusetzen, ohne dass dies einen Mangel der Leistung darstellt.</p>
+        <p class="abs"><span class="num">(4)</span> Der Kunde stellt sicher, dass jede Kommunikation mit Bewerbern den Anforderungen des Allgemeinen Gleichbehandlungsgesetzes (AGG), des Bundesdatenschutzgesetzes (BDSG), der Datenschutz-Grundverordnung (DSGVO) sowie sonstiger anwendbarer Vorschriften entspricht. Der Kunde haftet allein für etwaige AGG-Klagen abgelehnter Bewerber. § 17 dieser AGB bleibt unberührt.</p>
+        <p class="abs"><span class="num">(5)</span> Der Kunde verarbeitet Bewerber-Daten ausschließlich für Zwecke der konkreten Stellenbesetzung und löscht diese spätestens nach den gesetzlichen Aufbewahrungsfristen, insbesondere unter Beachtung der Aufbewahrungsfrist von sechs (6) Monaten zur Verteidigung gegen AGG-Ansprüche. Eine Aufnahme abgelehnter Bewerber in einen unternehmenseigenen Talent-Pool erfolgt nur auf Grundlage einer wirksamen Einwilligung der betroffenen Person.</p>
+      </section>
+
+      <section>
+        <h2>§ 9 Vergütung, Fälligkeit, Verzug</h2>
+        <p class="abs"><span class="num">(1)</span> Es gilt die im Einzelvertrag vereinbarte Vergütung. Sämtliche Preise verstehen sich, soweit nicht ausdrücklich anders ausgewiesen, in Euro netto zuzüglich der jeweils gesetzlichen Umsatzsteuer.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Fälligkeitsregelung.</strong> Soweit nicht abweichend vereinbart, ist die Vergütung wie folgt fällig:</p>
+        <ul class="dash">
+          <li>Bei <strong>Projekten mit fest umrissenem Liefergegenstand</strong> (insbesondere Webdesign, Videoproduktion, Workshops): Vorauszahlung in Höhe von vierzig Prozent (40%) bei Vertragsschluss, Restbetrag nach Abnahme der vereinbarten Leistung.</li>
+          <li>Bei <strong>laufenden Dienstleistungs-Verträgen</strong> (insbesondere KI Connect, Compliance-Module, monatliche Betreuung): die einmalige Setup-Vergütung ist bei Vertragsschluss vollständig fällig; die monatliche Vergütung ist jeweils am ersten Werktag des laufenden Monats für diesen Monat im Voraus fällig.</li>
+          <li>Abweichend hiervon ist die Agentur berechtigt, im Angebot eine vollständige oder teilweise Vorauszahlung der gesamten vereinbarten Mindestlaufzeit zu verlangen, sofern dies durch besondere Vertragsgestaltung (z.B. Sonderkonditionen, Rabatte) gerechtfertigt ist; in diesem Fall hat das Angebot Vorrang.</li>
+        </ul>
+        <p class="abs"><span class="num">(3)</span> Rechnungen sind innerhalb von sieben (7) Tagen ab Rechnungsdatum ohne Abzug zur Zahlung fällig. Nach Ablauf dieser Frist befindet sich der Kunde ohne weitere Mahnung in Verzug (§ 286 Abs. 2 Nr. 1 BGB). Die Agentur ist berechtigt, im Verzugsfall Verzugszinsen in Höhe von neun (9) Prozentpunkten über dem Basiszinssatz, eine Pauschale gemäß § 288 Abs. 5 BGB in Höhe von 40,00 EUR sowie pauschale Mahnkosten in Höhe von 15,00 EUR je Mahnung geltend zu machen. Die Geltendmachung weitergehender Schäden bleibt unberührt.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Leistungseinstellung bei Verzug.</strong> Im Falle des Zahlungsverzugs des Kunden ist die Agentur berechtigt, sämtliche Leistungen aus diesem und allen anderen mit dem Kunden bestehenden Vertragsverhältnissen bis zur vollständigen Begleichung sämtlicher offenen Forderungen einzustellen, einschließlich der Aussetzung laufender Werbeschaltungen und der Sperrung des Zugangs zu Compliance-Modulen. Eine hieraus folgende Nichterreichung von Kampagnen-Zielen, Terminen oder sonstigen Erfolgs-Parametern stellt keinen Mangel der Leistung dar und löst keine Rechte des Kunden aus.</p>
+        <p class="abs"><span class="num">(5)</span> Sämtliche nicht ausdrücklich von der vereinbarten Vergütung umfassten Leistungen, insbesondere Reise- und Übernachtungskosten, Drittkosten, Werbebudgets, Lizenzgebühren, Verwertungsgesellschafts-Gebühren (z.B. GEMA, VG Bild-Kunst), KSK-Abgaben, Stockmaterial-, Schriftarten- und Musik-Lizenzen sowie Mehraufwände infolge nachträglich geänderter Anforderungen, sind gesondert zu vergüten.</p>
+        <p class="abs"><span class="num">(6)</span> <strong>Reisekosten.</strong> Fahrtkosten werden für Vor-Ort-Termine beim Kunden pauschal mit 0,59 EUR je gefahrenem Kilometer abgerechnet, mindestens jedoch 50,00 EUR je Anfahrt. Erforderliche Übernachtungen trägt der Kunde nach tatsächlichen, angemessenen Kosten. Reisenebenkosten werden je Reise pauschal abgerechnet wie folgt: bis zu 200 km Hin- und Rückfahrt 99,00 EUR; bis zu 400 km 180,00 EUR; über 400 km 250,00 EUR.</p>
+        <p class="abs"><span class="num">(7)</span> Skonto-Abzüge sind nur bei ausdrücklicher schriftlicher Vereinbarung zulässig. Eine eigenmächtige Verrechnung oder Kürzung von Rechnungen durch den Kunden ist ausgeschlossen.</p>
+      </section>
+
+      <section>
+        <h2>§ 10 Stornierungspauschalen</h2>
+        <p class="abs"><span class="num">(1)</span> <strong>Drehtage und Foto-Produktionen.</strong> Sagt der Kunde einen vereinbarten Drehtag oder eine Foto-Produktion ab, schuldet er eine Stornierungspauschale wie folgt: bei Stornierung innerhalb von vierzehn (14) Tagen vor dem Termin 1.000,00 EUR; innerhalb von zehn (10) Tagen 1.500,00 EUR; innerhalb von zwei (2) Tagen 2.000,00 EUR. Bereits an Dritte abgeführte Kosten (insbesondere Locations, Mietequipment, Personal) sind zusätzlich zu erstatten.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Strategie-Workshops und Beratungstermine.</strong> Sagt der Kunde einen vereinbarten Strategie-Workshop oder Beratungstermin ab, schuldet er eine Stornierungspauschale wie folgt: bei Stornierung innerhalb von vierzehn (14) Tagen vor dem Termin 500,00 EUR; innerhalb von sieben (7) Tagen 1.000,00 EUR; innerhalb von achtundvierzig (48) Stunden oder bei Nichterscheinen 1.500,00 EUR. Dies gilt auch für Workshops, die als Teil einer Garantie- oder Kulanzleistung gemäß § 13 vereinbart sind.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Quali-, Onboarding- und Reporting-Termine.</strong> Sagt der Kunde einen vereinbarten Quali-, Onboarding- oder Reporting-Termin kurzfristig ab oder erscheint er nicht, ist die Agentur berechtigt, ab dem zweiten kurzfristig abgesagten oder versäumten Termin innerhalb eines Zeitraums von zwölf (12) Monaten eine Aufwandspauschale in Höhe von 250,00 EUR je Vorfall in Rechnung zu stellen. Kurzfristig im Sinne dieser Klausel sind Absagen innerhalb von vierundzwanzig (24) Stunden vor dem Termin.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Sonstige Leistungen.</strong> Bei Stornierung sonstiger vereinbarter Leistungen durch den Kunden gelten folgende Pauschalen, soweit im Einzelvertrag nichts Abweichendes geregelt ist: bei Stornierung innerhalb von sieben (7) Tagen vor Beginn der Leistungserbringung 30 Prozent der vereinbarten Vergütung; innerhalb von fünf (5) Tagen 50 Prozent; innerhalb von zwei (2) Tagen 100 Prozent.</p>
+        <p class="abs"><span class="num">(5)</span> Dem Kunden bleibt in allen Fällen dieses § 10 der Nachweis vorbehalten, dass der Agentur ein geringerer Schaden oder kein Schaden entstanden ist. Die Agentur kann ihrerseits einen weitergehenden, nachgewiesenen Schaden geltend machen.</p>
+      </section>
+
+      <section>
+        <h2>§ 11 Vertragsdauer, Verlängerung, Kündigung</h2>
+        <p class="abs"><span class="num">(1)</span> Die Vertragsdauer, eine etwaige Mindestlaufzeit sowie die Bedingungen einer automatischen Verlängerung ergeben sich ausschließlich aus dem Einzelvertrag. Diese AGB enthalten insoweit keine Vorgabe; maßgeblich ist allein das jeweilige Angebot mit Annahme.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Automatische Verlängerung.</strong> Soweit im Einzelvertrag eine automatische Verlängerung vorgesehen ist, gelten ausschließlich die dort vereinbarten Verlängerungs- und Kündigungsfristen. Eine Pflicht der Agentur, den Kunden vor Ablauf einer Vertragsperiode an die laufende Frist zu erinnern, besteht nicht. Die rechtzeitige Kündigung obliegt allein dem Kunden.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Werkvertragliche Projekte.</strong> Bei Projekten mit fest umrissenem Liefergegenstand (insbesondere Webdesign, Videoproduktion, Workshops) endet der Vertrag mit Abnahme der Leistung gemäß § 14. Eine ordentliche Kündigung dieser Verträge ist ausgeschlossen; die Agentur behält in jedem Fall den vereinbarten Werklohn abzüglich ersparter Aufwendungen gemäß § 648 BGB.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Außerordentliche Kündigung.</strong> Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt. Ein wichtiger Grund liegt für die Agentur insbesondere vor, wenn:</p>
+        <ul class="dash">
+          <li>der Kunde mit zwei oder mehr fälligen Zahlungen oder mit fälligen Zahlungen in einer Höhe von zwei vollen Monatsbeträgen ganz oder teilweise in Verzug ist,</li>
+          <li>der Kunde wesentliche Mitwirkungspflichten trotz Mahnung in Textform mit angemessener Fristsetzung nicht erfüllt,</li>
+          <li>der Kunde gegen die Pflichten aus § 5 (Drehtage), § 6 (Webseiten und Rechtstexte), § 8 (Bewerber-Kommunikation), § 17 (Rechte Dritter) oder § 19 (Vertraulichkeit) wesentlich verstößt,</li>
+          <li>der Kunde die Agentur, ihre Mitarbeiter oder Subunternehmer in einer Weise behandelt, die die Fortsetzung der Zusammenarbeit unzumutbar macht (insbesondere bei beleidigendem, diskriminierendem, bedrohendem oder ehrverletzendem Verhalten),</li>
+          <li>über das Vermögen des Kunden ein Insolvenzverfahren beantragt oder eröffnet wird oder die Eröffnung mangels Masse abgelehnt wird,</li>
+          <li>der Kunde unrichtige Angaben über seine Bonität oder seine Eigenschaft als Unternehmer im Sinne von § 14 BGB gemacht hat.</li>
+        </ul>
+        <p class="abs"><span class="num">(5)</span> Kündigungen bedürfen zu ihrer Wirksamkeit der Schrift- oder Textform. Die elektronische Übermittlung an die im Impressum oder im Vertrag genannten E-Mail-Adressen genügt der Textform.</p>
+        <p class="abs"><span class="num">(6)</span> Wird der Vertrag durch außerordentliche Kündigung aus einem vom Kunden zu vertretenden Grund vorzeitig beendet, behält die Agentur den Anspruch auf die für die laufende Vertragsperiode vereinbarte Vergütung in voller Höhe. Ersparte Aufwendungen werden nur dann und nur in der Höhe angerechnet, die der Kunde konkret darlegt und beweist. Eine pauschale Anrechnung findet nicht statt.</p>
+      </section>
+
+      <section>
+        <h2>§ 12 Preisanpassung</h2>
+        <p class="abs"><span class="num">(1)</span> Bei Verträgen mit einer Laufzeit von mehr als sechs Monaten oder bei automatisch verlängerten Verträgen ist die Agentur berechtigt, die vereinbarten Vergütungen einmal pro Kalenderjahr nach billigem Ermessen anzupassen, höchstens jedoch in Höhe der Veränderung des Verbraucherpreisindex für Deutschland (Statistisches Bundesamt) gegenüber dem Vorjahresmonat zuzüglich zwei (2) Prozentpunkte. Eine Senkung der Vergütung steht im Ermessen der Agentur.</p>
+        <p class="abs"><span class="num">(2)</span> Die Anpassung wird dem Kunden in Textform mit einer Frist von mindestens sechs (6) Wochen vor Inkrafttreten angekündigt. Widerspricht der Kunde der Anpassung nicht innerhalb von vier (4) Wochen ab Zugang der Ankündigung in Textform, gilt die Anpassung als angenommen. Auf das Widerspruchsrecht und die Rechtsfolgen des Schweigens wird der Kunde in der Ankündigung gesondert hingewiesen. Im Falle eines wirksamen Widerspruchs ist die Agentur berechtigt, das Vertragsverhältnis zum Ablauf der laufenden Vertragsperiode ordentlich zu kündigen.</p>
+        <p class="abs"><span class="num">(3)</span> Erhöhungen der Werbebudget-Preise oder sonstiger Drittkosten kann die Agentur unmittelbar an den Kunden weitergeben.</p>
+      </section>
+
+      <section>
+        <h2>§ 13 Garantie als freiwillige Kulanzleistung</h2>
+        <p class="abs"><span class="num">(1)</span> Soweit im Einzelvertrag eine "Garantie" vereinbart ist, handelt es sich ausdrücklich um eine freiwillige, zusätzliche Kulanzleistung der Agentur. Sie begründet keinen geschuldeten Erfolg und keine Beschaffenheits- oder Haltbarkeitsgarantie im Sinne von §§ 443, 276 Abs. 1 S. 1 BGB. Die Regelung des § 2 Abs. 3 dieser AGB bleibt unberührt.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Inhalt der Garantie.</strong> Soweit im Einzelvertrag nichts Abweichendes geregelt ist, gilt für Recruiting-Kampagnen folgende Garantie-Regelung: Sollte innerhalb der vereinbarten Vertragslaufzeit keine Einstellung für die vereinbarte Stelle erfolgen, setzt die Agentur die Kampagne über das vertragliche Vertragsende hinaus auf unbestimmte Zeit fort, bis die vereinbarte Anzahl an Einstellungen erreicht ist. Für die Dauer dieser Verlängerung werden dem Kunden keine Agenturkosten in Rechnung gestellt. Werbebudgets gemäß § 7 sowie Kosten Dritter bleiben hiervon unberührt und sind weiterhin vom Kunden zu tragen.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Voraussetzung Strategie-Workshop.</strong> Voraussetzung für die Inanspruchnahme der Garantie ist die Teilnahme des Kunden an einem Strategie-Workshop in den Geschäftsräumen der Agentur in Hamburg. Der Workshop findet spätestens dreißig (30) Tage vor regulärem Ende der Vertragslaufzeit statt. Die Agentur weist diesen Workshop extern mit einem Wert von 2.890,00 EUR netto aus; im Rahmen der Garantieleistung ist er für den Kunden kostenfrei. Sollte ein Vor-Ort-Termin in Hamburg in begründeten Ausnahmefällen für den Kunden nicht möglich sein, kann die Agentur nach eigenem Ermessen einen alternativen Online-Workshop von mindestens vier (4) Stunden Dauer anbieten; ein Anspruch des Kunden auf eine Online-Variante besteht nicht.</p>
+        <p class="abs"><span class="num">(4)</span> <strong>Wegfall der Garantie.</strong> Die Garantie entfällt vollständig, wenn:</p>
+        <ul class="dash">
+          <li>der Kunde die Mitwirkungspflichten gemäß §§ 4, 5, 6 oder 8 verletzt,</li>
+          <li>der Workshop gemäß Absatz (3) nicht innerhalb der dort genannten Frist durchgeführt wird, es sei denn, dies ist von der Agentur zu vertreten,</li>
+          <li>die Stelle aufgrund einer Entscheidung des Kunden nicht mehr besetzt werden soll,</li>
+          <li>der Kunde die Stellenausschreibung, die Anforderungen oder das Vergütungsangebot während der Vertragslaufzeit so wesentlich verändert, dass die ursprüngliche Kampagne nicht mehr passend gehalten werden kann,</li>
+          <li>der Kunde sich mit einer Zahlung in Verzug befindet,</li>
+          <li>der Kunde gegen die Pflichten aus § 19 (Vertraulichkeit) oder § 21 (Abwerbeschutz) verstößt.</li>
+        </ul>
+        <p>Eine Verkleinerung des definierten Bewerber-Pools (z.B. durch Erhöhung der formellen Anforderungen ohne Anpassung der Kampagne) gilt als wesentliche Veränderung im Sinne dieses Absatzes.</p>
+        <p class="abs"><span class="num">(5)</span> Werden mehrere Stellen über eine gemeinsame Kampagne ausgeschrieben, gilt die Garantie nur für die im Einzelvertrag konkret benannten Stellen und Stellenanzahlen.</p>
+        <p class="abs"><span class="num">(6)</span> Aus der Garantie folgt kein Anspruch auf Erstattung bereits geleisteter Vergütungen, kein Anspruch auf Schadensersatz und kein Anspruch auf eine bestimmte Anzahl von Bewerbungen oder Kontakten. Die Garantie ist nicht abtretbar und nicht übertragbar.</p>
+      </section>
+
+      <section>
+        <h2>§ 14 Abnahme</h2>
+        <p class="abs"><span class="num">(1)</span> Bei werkvertraglich geschuldeten Leistungen (insbesondere Webdesign-Projekte, fertig gelieferte Videos, abgeschlossene Workshops mit Übergabe-Dokument) ist der Kunde zur Abnahme verpflichtet, sobald die Agentur die Leistung als abgeschlossen angezeigt hat. Die Abnahme hat innerhalb von fünf (5) Werktagen nach Anzeige der Fertigstellung in Textform zu erfolgen.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Fiktive Abnahme.</strong> Erfolgt innerhalb dieser Frist weder eine ausdrückliche Abnahme noch eine konkret begründete Mängelrüge in Textform, gilt die Leistung als abgenommen. Die Agentur wird den Kunden auf diese Rechtsfolge in der Anzeige der Fertigstellung gesondert hinweisen.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Konkretisierungspflicht bei Mängelrügen.</strong> Mängelrügen sind in Textform unter konkreter Benennung des gerügten Mangels (Stelle, Art, Auswirkung) und unter Bezugnahme auf die vertraglich vereinbarte Leistungsbeschreibung zu erheben. Pauschale Beanstandungen ohne konkrete Mangel-Benennung (z.B. "gefällt uns nicht", "passt nicht zu uns", "wirkt nicht wie versprochen") stellen keine wirksame Mängelrüge dar.</p>
+        <p class="abs"><span class="num">(4)</span> Eine Verweigerung der Abnahme ist nur zulässig bei wesentlichen Mängeln und unter Angabe konkreter, nachvollziehbarer Gründe gemäß Absatz (3). Die Agentur erhält in diesem Fall eine angemessene Frist zur Nachbesserung. Verweigert der Kunde die Abnahme ohne triftigen Grund oder bezieht sich der Mangel ausschließlich auf unwesentliche Abweichungen, gilt die Leistung als abgenommen.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Konkludente Abnahme.</strong> Die Inbetriebnahme einer Karriereseite oder Landingpage durch den Kunden, das Veröffentlichen einer Werbeanzeige oder eines Videos, die Übernahme eines Videos in eigene Kanäle des Kunden, die Verwendung erstellter Materialien für interne oder externe Kommunikation oder die anderweitige bestimmungsgemäße Nutzung der Leistung gelten als konkludente Abnahme.</p>
+        <p class="abs"><span class="num">(6)</span> Bei größeren Projekten können Teilabnahmen vereinbart werden. Diese gelten als verbindlich und begrenzen spätere Beanstandungen auf die noch nicht abgenommenen Projektbestandteile.</p>
+        <p class="abs"><span class="num">(7)</span> Änderungswünsche oder Beanstandungen nach erfolgter Abnahme sind ausschließlich gegen zusätzliche Vergütung möglich.</p>
+      </section>
+
+      <section>
+        <h2>§ 15 Mängelrechte und Gewährleistung</h2>
+        <p class="abs"><span class="num">(1)</span> Die Gewährleistung der Agentur richtet sich nach den gesetzlichen Bestimmungen mit den nachfolgenden Maßgaben. Mängelansprüche sind zunächst auf Nacherfüllung beschränkt. Die Agentur ist berechtigt, nach ihrer Wahl nachzubessern oder neu zu liefern.</p>
+        <p class="abs"><span class="num">(2)</span> Schlägt die Nacherfüllung nach einem zweiten Versuch fehl, kann der Kunde nach seiner Wahl die Vergütung mindern oder vom Vertrag zurücktreten. Bei nur unerheblicher Vertragswidrigkeit ist der Rücktritt ausgeschlossen.</p>
+        <p class="abs"><span class="num">(3)</span> Soweit der Kunde durch eigene Veränderungen an einer Leistung deren Funktionsfähigkeit beeinträchtigt, entfällt die Gewährleistung, sofern der Kunde nicht nachweist, dass der Mangel unabhängig von der Veränderung bereits bestand.</p>
+        <p class="abs"><span class="num">(4)</span> Werbeangaben Dritter, insbesondere von Herstellern eingesetzter Software, Plattform-Betreiber oder Subunternehmer, sind für die Agentur nicht verbindlich.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Verjährung.</strong> Die Verjährungsfrist für Mängelansprüche aus werkvertraglichen Leistungen (§ 2 Abs. 2 Satz 2) beträgt ein (1) Jahr ab Übergabe oder Abnahme der Leistung. Für Ansprüche aus Dienstleistungen gelten die gesetzlichen Verjährungsfristen. Ausgenommen von der einjährigen Frist sind: Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, Ansprüche aus dem Produkthaftungsgesetz, Schäden, die die Agentur vorsätzlich oder grob fahrlässig zu vertreten hat, Schäden aus der Verletzung einer ausdrücklich übernommenen Beschaffenheits- oder Haltbarkeitsgarantie sowie arglistig verschwiegene Mängel; insoweit gelten die gesetzlichen Verjährungsfristen.</p>
+      </section>
+
+      <section>
+        <h2>§ 16 Nutzungs- und Urheberrechte</h2>
+        <p class="abs"><span class="num">(1)</span> An sämtlichen von der Agentur erstellten Leistungen, insbesondere Konzepten, Texten, Drehbüchern, Videos, Fotos, Grafiken, Animationen, Layouts, Quellcode, Stellenausschreibungen, Karriereseiten und Workshop-Materialien, behält sich die Agentur sämtliche Eigentums- und Nutzungsrechte vor, soweit nicht ausdrücklich übertragen.</p>
+        <p class="abs"><span class="num">(2)</span> Mit vollständiger Zahlung der vereinbarten Vergütung erhält der Kunde, soweit nicht abweichend vereinbart, ein einfaches, nicht ausschließliches, nicht übertragbares und nicht unterlizenzierbares, auf das Gebiet der Bundesrepublik Deutschland beschränktes Nutzungsrecht an den für ihn erstellten Leistungen für den vertraglich vereinbarten Zweck. § 60 UrhG wird abbedungen.</p>
+        <p class="abs"><span class="num">(3)</span> Bei laufenden Recruiting-Kampagnen erlöschen die Nutzungsrechte des Kunden an den im Rahmen der Kampagne erstellten Werbemitteln (insbesondere Captions, Visuals, Video-Cuts) automatisch zwölf (12) Monate nach Beendigung des Vertragsverhältnisses, soweit nicht eine Verlängerung gesondert vereinbart wird. Bei Karriereseiten und individuell beauftragten Videoproduktionen gilt das Nutzungsrecht zeitlich unbeschränkt für den ursprünglich vereinbarten Zweck.</p>
+        <p class="abs"><span class="num">(4)</span> Eine Bearbeitung, Umgestaltung, Übersetzung oder Weiterverwendung der Leistungen der Agentur durch den Kunden oder Dritte über den ursprünglich vereinbarten Zweck hinaus ist nur mit ausdrücklicher Zustimmung der Agentur in Textform zulässig. Verstöße berechtigen die Agentur zu Schadensersatz nach den gesetzlichen Vorschriften, mindestens jedoch zur Geltendmachung einer fiktiven Lizenzgebühr in branchenüblicher Höhe.</p>
+        <p class="abs"><span class="num">(5)</span> Die Agentur ist berechtigt, die für den Kunden erbrachten Leistungen anonymisiert oder unter Nennung der Firma und des Logos des Kunden zu Referenzzwecken zu verwenden, insbesondere auf der Website, in Pitch-Dokumenten und in eigenen Social-Media-Kanälen. Der Kunde kann diese Einwilligung aus wichtigem Grund in Textform widerrufen.</p>
+        <p class="abs"><span class="num">(6)</span> Die Agentur ist berechtigt, sich bei branchenüblichen Marketingmaßnahmen als Urheber zu nennen oder ihre Leistungen branchenüblich zu signieren (z.B. "Powered by Grünberg Solutions" im Footer einer Karriereseite). Der Kunde wird dies technisch nicht entfernen oder verändern, solange das Vertragsverhältnis besteht und für mindestens zwölf (12) Monate nach Vertragsende, sofern Karriereseite oder Landingpage weiter im Auftrag des Kunden betrieben werden.</p>
+        <p class="abs"><span class="num">(7)</span> Soweit Leistungen der Agentur Werke Dritter enthalten (z.B. Stockmaterial, Musik, Schriftarten, Foto-Lizenzen), erstrecken sich die eingeräumten Nutzungsrechte ausschließlich im Umfang der Lizenzen, die die Agentur ihrerseits erworben hat. Eine Erweiterung dieser Lizenzen ist gesondert zu vergüten. Der Kunde ist verpflichtet, sich vor jeder Nutzung eigenständig über etwaige Lizenz-Beschränkungen zu informieren; eine Aufklärungspflicht der Agentur besteht nicht.</p>
+      </section>
+
+      <section>
+        <h2>§ 17 Rechte Dritter, Antidiskriminierung, Freistellung</h2>
+        <p class="abs"><span class="num">(1)</span> Der Kunde versichert, dass von ihm bereitgestellte Inhalte (Logos, Texte, Bilder, Videos, Markennamen, Slogans, Mitarbeiter-Aufnahmen, Stellenanforderungen, Produktbezeichnungen) frei von Rechten Dritter sind und ihre vertragsgemäße Nutzung keine Urheber-, Marken-, Persönlichkeits-, Wettbewerbs-, Datenschutz-, Lebensmittel-, Heilmittelwerbe-, Bauwerbe- oder Antidiskriminierungsrechte verletzt. Der Kunde stellt sicher, dass abgebildete Personen in die vertragsgemäße Veröffentlichung, Bearbeitung und Verbreitung schriftlich (oder dokumentiert) eingewilligt haben.</p>
+        <p class="abs"><span class="num">(2)</span> Soweit die Agentur Stellenanzeigen-Texte, Captions, Bewerber-Ansprachen oder vergleichbare Inhalte auf Grundlage der Vorgaben des Kunden formuliert, erfolgt die finale inhaltliche und rechtliche Verantwortung beim Kunden. Der Kunde ist verpflichtet, diese Inhalte vor der Veröffentlichung auf Konformität mit dem Allgemeinen Gleichbehandlungsgesetz (AGG) sowie sonstigen anwendbaren Vorschriften zu prüfen oder durch fachkundige Dritte prüfen zu lassen. Die Freigabe durch den Kunden in Textform gilt als Bestätigung der Konformität.</p>
+        <p class="abs"><span class="num">(3)</span> <strong>Umfassende Freistellung.</strong> Der Kunde stellt die Agentur, ihre Geschäftsführung, Mitarbeiter und Subunternehmer von sämtlichen Ansprüchen Dritter frei, die im Zusammenhang mit der vertragsgemäßen Nutzung der vom Kunden bereitgestellten oder freigegebenen Inhalte oder Werbemittel gegen die Agentur erhoben werden, einschließlich Ansprüchen auf Entschädigung, Schadensersatz, Unterlassung, Auskunft, Beseitigung und Erstattung angemessener Rechtsverteidigungskosten. Dies gilt insbesondere für Ansprüche aus dem AGG, dem UWG, dem UrhG, dem MarkenG, der DSGVO, dem TTDSG, dem Digital Services Act und vergleichbaren Vorschriften.</p>
+        <p class="abs"><span class="num">(4)</span> Wird die Agentur wegen einer Rechtsverletzung im Sinne von Absatz (3) in Anspruch genommen, kann sie den Kunden hierüber informieren. Eine Pflicht zur Information vor oder während der Verteidigung besteht nicht; eine unterbliebene Information lässt die Freistellungspflicht des Kunden unberührt. Der Kunde hat die Agentur bei der Abwehr der Ansprüche im angemessenen Maße zu unterstützen und auf erstes Anfordern von sämtlichen entsprechenden Ansprüchen einschließlich angemessener Rechtsverteidigungskosten freizustellen. Die Agentur ist berechtigt, sich von einem Anwalt ihrer Wahl vertreten zu lassen; die hierfür entstehenden Kosten trägt der Kunde im Rahmen der Freistellung.</p>
+        <p class="abs"><span class="num">(5)</span> Die Agentur haftet nicht für die rechtliche Zulässigkeit der im Auftrag des Kunden erbrachten Leistungen, insbesondere wenn vom Kunden bereitgestellte oder freigegebene Inhalte gegen anwendbares Recht verstoßen. Die Agentur wird den Kunden auf erkennbare rechtliche Risiken hinweisen, soweit ihr diese bekannt werden; eine eigenständige rechtliche Prüfung ist nicht geschuldet und stellt keine Rechtsberatung im Sinne des RDG dar.</p>
+        <p class="abs"><span class="num">(6)</span> Die Freistellungspflicht des Kunden besteht zeitlich unbegrenzt und überdauert das Vertragsverhältnis bis zum Ablauf der gesetzlichen Verjährung der zugrundeliegenden Ansprüche.</p>
+      </section>
+
+      <section>
+        <h2>§ 18 Haftung und Haftungsbegrenzung</h2>
+        <p class="abs"><span class="num">(1)</span> Die Agentur haftet bei Vorsatz und grober Fahrlässigkeit unbeschränkt nach den gesetzlichen Vorschriften.</p>
+        <p class="abs"><span class="num">(2)</span> Bei einfacher Fahrlässigkeit haftet die Agentur nur bei Verletzung einer wesentlichen Vertragspflicht (Kardinalpflicht), deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Kunde regelmäßig vertrauen darf. In diesem Fall ist die Haftung auf den vertragstypischen, vorhersehbaren Schaden begrenzt, höchstens jedoch auf die Höhe der vom Kunden für die jeweilige Leistung in den letzten zwölf (12) Monaten gezahlten Vergütung. Bei Verträgen mit kürzerer Laufzeit gilt die für die gesamte Laufzeit gezahlte Vergütung als Höchstgrenze.</p>
+        <p class="abs"><span class="num">(3)</span> Eine weitergehende Haftung der Agentur, ihrer gesetzlichen Vertreter, Mitarbeiter und Erfüllungsgehilfen ist ausgeschlossen. Insbesondere haftet die Agentur nicht für entgangenen Gewinn, mittelbare Schäden, Folgeschäden, Reputationsschäden, Datenverluste oder Schäden aus der Nichterreichung wirtschaftlicher Ziele des Kunden (insbesondere nicht für Kosten alternativer Personalbeschaffung, Leiharbeit, Produktionsausfall, entgangene Aufträge, Umsatzausfall durch unbesetzte Stellen).</p>
+        <p class="abs"><span class="num">(4)</span> Die Haftungsbegrenzungen dieses § 18 gelten nicht für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, für Ansprüche aus dem Produkthaftungsgesetz, für Schäden aus der Verletzung einer von der Agentur ausdrücklich übernommenen Beschaffenheits- oder Haltbarkeitsgarantie sowie für arglistig verschwiegene Mängel.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Haftungsausschluss bei Plattform- und Dritt-Risiken.</strong> Die Agentur haftet nicht für Sperrungen, Reichweitenverluste, algorithmische Eingriffe oder sonstige Eingriffe seitens Plattform-Betreibern (§ 7 Abs. 3) sowie für Verzögerungen oder Ausfälle, die durch Subunternehmer oder Drittanbieter (Hosting, CRM, Tracking, Stockmaterial, Verwertungsgesellschaften) entstehen, sofern sie diese mit der gebotenen Sorgfalt ausgewählt hat.</p>
+        <p class="abs"><span class="num">(6)</span> Soweit die Haftung der Agentur ausgeschlossen oder beschränkt ist, gilt dies auch für die persönliche Haftung der Geschäftsführung, der Mitarbeiter, freier Mitarbeiter und Subunternehmer der Agentur.</p>
+        <p class="abs"><span class="num">(7)</span> Die Freistellungsansprüche der Agentur gemäß §§ 5, 6, 8 und 17 dieser AGB unterliegen <strong>nicht</strong> der Haftungsbegrenzung dieses § 18 und bestehen in vollem Umfang.</p>
+      </section>
+
+      <section>
+        <h2>§ 19 Vertraulichkeit</h2>
+        <p class="abs"><span class="num">(1)</span> Die Parteien verpflichten sich, sämtliche im Rahmen der Geschäftsbeziehung erlangten Geschäfts- und Betriebsgeheimnisse, Kundenlisten, Pricing, Strategie-Dokumente, Bewerber-Daten, vertraglichen Konditionen sowie sonstige nicht-öffentliche Informationen der jeweils anderen Partei vertraulich zu behandeln, durch angemessene technische, organisatorische und rechtliche Maßnahmen vor unbefugtem Zugriff zu schützen und ausschließlich für die Erfüllung des Vertrags zu verwenden.</p>
+        <p class="abs"><span class="num">(2)</span> Die Vertraulichkeitspflicht gilt nicht für Informationen, die nachweislich bereits vor Vertragsschluss bekannt waren, ohne Verletzung der Vertraulichkeitspflicht öffentlich zugänglich werden, von der empfangenden Partei unabhängig entwickelt wurden, oder aufgrund gesetzlicher oder behördlicher Verpflichtungen offenzulegen sind. Im letztgenannten Fall ist die offenlegende Partei verpflichtet, die andere Partei vorab in Textform zu informieren, soweit gesetzlich zulässig.</p>
+        <p class="abs"><span class="num">(3)</span> Die Vertraulichkeitspflicht besteht für die Dauer des Vertragsverhältnisses und drei (3) Jahre nach dessen Beendigung fort. Für Geschäftsgeheimnisse im Sinne des Geschäftsgeheimnisgesetzes (GeschGehG) besteht die Vertraulichkeitspflicht zeitlich unbegrenzt.</p>
+        <p class="abs"><span class="num">(4)</span> Bei jedem schuldhaften Verstoß gegen die Vertraulichkeitspflicht hat die verletzende Partei eine Vertragsstrafe in Höhe von 5.000,00 EUR je Einzelfall zu zahlen, bei einem Dauerverstoß je angefangenen Monat, insgesamt jedoch begrenzt auf 50.000,00 EUR je Einzelvertrag und Kalenderjahr. Weitergehende Schadensersatzansprüche bleiben unberührt; die Vertragsstrafe wird auf einen etwaigen Schadensersatz angerechnet.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Öffentliche Äußerungen.</strong> Der Kunde wird sich während der Vertragslaufzeit und für einen Zeitraum von zwölf (12) Monaten nach Vertragsende in der Öffentlichkeit, in sozialen Netzwerken, in Bewertungsportalen und gegenüber Wettbewerbern der Agentur nicht wahrheitswidrig oder herabsetzend über die Agentur, ihre Leistungen, ihre Mitarbeiter oder ihre Geschäftsführung äußern. Sachliche und wahrheitsgemäße Bewertungen bleiben hiervon unberührt. Vor der Veröffentlichung negativer Bewertungen verpflichtet sich der Kunde, eventuelle Beschwerden zunächst direkt bei der Agentur in Textform vorzubringen und ihr eine angemessene Frist zur Stellungnahme oder Behebung einzuräumen.</p>
+      </section>
+
+      <section>
+        <h2>§ 20 Datenschutz und Auftragsverarbeitung</h2>
+        <p class="abs"><span class="num">(1)</span> Die Parteien beachten bei der Vertragsdurchführung die anwendbaren Datenschutzvorschriften, insbesondere die Datenschutz-Grundverordnung (DSGVO), das Bundesdatenschutzgesetz (BDSG) und das Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG).</p>
+        <p class="abs"><span class="num">(2)</span> Soweit die Agentur im Rahmen ihrer Leistungen personenbezogene Daten im Auftrag des Kunden verarbeitet, insbesondere bei der Erfassung, Speicherung und Weiterleitung von Bewerber-Daten oder Mitarbeiter-Daten, schließen die Parteien eine Vereinbarung zur Auftragsverarbeitung gemäß Art. 28 DSGVO. Die jeweils gültige Standard-AVV der Agentur ist auf Anforderung erhältlich und wird dem Einzelvertrag bei datenschutz-relevanten Leistungen als Anlage beigefügt. Ohne wirksam abgeschlossene AVV ist die Agentur berechtigt, datenschutz-relevante Leistungen auszusetzen.</p>
+        <p class="abs"><span class="num">(3)</span> Verantwortlicher im Sinne der DSGVO für Bewerber-Daten und Mitarbeiter-Daten ist der Kunde. Die Agentur ist Auftragsverarbeiter, soweit nicht im Einzelfall abweichend vereinbart. Verantwortlicher für die im Werbekonto des Kunden generierten Daten (z.B. Conversion-Tracking, Pixel-Daten) ist ebenfalls der Kunde, soweit nicht eine gemeinsame Verantwortlichkeit (Art. 26 DSGVO) ausdrücklich vereinbart wird.</p>
+        <p class="abs"><span class="num">(4)</span> Die Agentur ist berechtigt, Subunternehmer als Unter-Auftragsverarbeiter einzusetzen, soweit dies für die Leistungserbringung erforderlich ist. Die Modalitäten richten sich ausschließlich nach der zwischen den Parteien geschlossenen Auftragsverarbeitungsvereinbarung. Soweit dort nicht abweichend geregelt, gilt eine pauschale Genehmigung des Einsatzes von Unter-Auftragsverarbeitern als erteilt.</p>
+        <p class="abs"><span class="num">(5)</span> Datenpannen oder Verdacht auf Datenpannen wird die Agentur dem Kunden unverzüglich nach Kenntniserlangung in Textform mitteilen. Der Kunde kommt seinerseits seinen Mitteilungs- und Meldepflichten gemäß Art. 33, 34 DSGVO selbst nach.</p>
+      </section>
+
+      <section>
+        <h2>§ 21 Abwerbeschutz</h2>
+        <p class="abs"><span class="num">(1)</span> Der Kunde verpflichtet sich, während der Vertragslaufzeit und für einen Zeitraum von zwölf (12) Monaten nach Vertragsende keine Mitarbeiter, freien Mitarbeiter oder Subunternehmer der Agentur, mit denen er im Rahmen der Vertragsdurchführung in Kontakt gekommen ist, abzuwerben oder zur Aufnahme einer Tätigkeit für sich oder verbundene Unternehmen zu veranlassen, sei es als Arbeitnehmer, freier Mitarbeiter, Berater oder in vergleichbarer Form. Eine bloße Reaktion auf öffentlich ausgeschriebene Stellen ohne aktive Ansprache durch den Kunden ist keine Abwerbung im Sinne dieser Regelung.</p>
+        <p class="abs"><span class="num">(2)</span> Bei Verstoß gegen Absatz (1) hat der Kunde eine Vertragsstrafe in Höhe von einem (1) Brutto-Jahresgehalt der abgeworbenen Person, mindestens jedoch 30.000,00 EUR, höchstens jedoch 100.000,00 EUR je Einzelfall, an die Agentur zu zahlen. Weitergehender Schadensersatz bleibt vorbehalten und wird durch die Vertragsstrafe nicht ausgeschlossen; die Vertragsstrafe wird angerechnet.</p>
+        <p class="abs"><span class="num">(3)</span> Über den Inhalt der Bewerbungen, die im Rahmen der Recruiting-Kampagnen über die Agentur eingehen, sowie über die Identität von Bewerbern, die der Kunde nicht einstellt, wird der Kunde Stillschweigen wahren und diese Informationen nicht für eigene Zwecke außerhalb der konkreten Stellenbesetzung nutzen. Eine Weitergabe an verbundene Unternehmen oder Dritte ist ausgeschlossen.</p>
+      </section>
+
+      <section>
+        <h2>§ 22 Eigentumsvorbehalt und Sicherheiten</h2>
+        <p class="abs"><span class="num">(1)</span> Bis zur vollständigen Zahlung der vereinbarten Vergütung verbleiben sämtliche von der Agentur erstellten Leistungen im Eigentum der Agentur. Die Agentur ist berechtigt, die Nutzung oder Weiterverwendung durch den Kunden bis zur vollständigen Zahlung zu untersagen, einschließlich der Sperrung von Online-Zugängen, Werbeanzeigen, Karriereseiten und Compliance-Modulen.</p>
+        <p class="abs"><span class="num">(2)</span> Für sämtliche Forderungen der Agentur gegen den Kunden aus diesem oder einem anderen Vertragsverhältnis gewährt der Kunde der Agentur ein vertragliches Pfandrecht an den vom Kunden zur Bearbeitung übergebenen Gegenständen, Daten und Rechten, insbesondere an Software, Texten, Bildern, Videos, Logos und sonstigen urheberrechtlich oder immaterialgüterrechtlich geschützten Gegenständen und Rechten.</p>
+        <p class="abs"><span class="num">(3)</span> Der Kunde ist verpflichtet, der Agentur seine jeweils aktuelle Anschrift, Firmierung, gesetzliche Vertretung und Bankverbindung mitzuteilen, solange ein Pfandrecht oder eine offene Forderung besteht.</p>
+      </section>
+
+      <section>
+        <h2>§ 23 Höhere Gewalt, Leistungsstörungen</h2>
+        <p class="abs"><span class="num">(1)</span> Vereinbarte Leistungsfristen beginnen erst, wenn alle für die Leistungserbringung erforderlichen Informationen, Materialien und Mitwirkungsleistungen des Kunden vorliegen.</p>
+        <p class="abs"><span class="num">(2)</span> Ereignisse höherer Gewalt sowie sonstige unvorhergesehene, außerhalb des Einflussbereichs der Agentur liegende Umstände (insbesondere Pandemien, Naturkatastrophen, Cyber-Angriffe auf Plattformen oder eigene Systeme, Streiks, behördliche Anordnungen, schwerwiegende Einschränkungen der genutzten Plattformen, Energiemangellage, kriegerische Ereignisse, Sanktionen) verlängern Leistungsfristen entsprechend. Sollten solche Umstände die Vertragserfüllung dauerhaft unmöglich machen oder mehr als drei (3) Monate andauern, sind beide Parteien berechtigt, vom Vertrag zurückzutreten oder ihn außerordentlich zu kündigen.</p>
+        <p class="abs"><span class="num">(3)</span> Die Agentur haftet nicht für Verzögerungen oder Ausfälle, die durch Subunternehmer oder Drittanbieter entstehen, sofern sie deren Auswahl mit der gebotenen Sorgfalt vorgenommen hat.</p>
+      </section>
+
+      <section>
+        <h2>§ 24 Aufrechnung und Zurückbehaltung</h2>
+        <p class="abs"><span class="num">(1)</span> Die Aufrechnung mit Gegenforderungen des Kunden ist nur zulässig, soweit die Gegenforderung unbestritten oder rechtskräftig festgestellt ist.</p>
+        <p class="abs"><span class="num">(2)</span> Ein Zurückbehaltungsrecht steht dem Kunden nur zu, soweit sein Gegenanspruch auf demselben Vertragsverhältnis beruht und unbestritten oder rechtskräftig festgestellt ist.</p>
+        <p class="abs"><span class="num">(3)</span> Bei Streitigkeiten über die Höhe einer Forderung der Agentur ist der Kunde verpflichtet, den unstreitigen Teil der Forderung fristgerecht zu zahlen. Das Recht zur Zurückbehaltung des bestrittenen Teils bleibt unberührt.</p>
+      </section>
+
+      <section>
+        <h2>§ 25 Änderungen dieser AGB</h2>
+        <p class="abs"><span class="num">(1)</span> Die Agentur behält sich das Recht vor, diese AGB mit Wirkung für bestehende Vertragsverhältnisse zu ändern, sofern die Änderungen unter Berücksichtigung der Interessen der Agentur für den Kunden zumutbar sind und das vertragliche Gleichgewicht nicht zu Lasten des Kunden wesentlich verschoben wird. Änderungen wesentlicher vertraglicher Hauptleistungspflichten (Leistungsumfang, Vergütungsstruktur) sind hiervon ausgenommen und bedürfen einer ausdrücklichen individuellen Vereinbarung.</p>
+        <p class="abs"><span class="num">(2)</span> Über Änderungen wird der Kunde in Textform mindestens sechs (6) Wochen vor dem geplanten Inkrafttreten informiert. Widerspricht der Kunde der Änderung nicht innerhalb von vier (4) Wochen ab Zugang der Änderungsmitteilung in Textform, gelten die Änderungen als angenommen. Auf das Widerspruchsrecht und die Rechtsfolgen des Schweigens wird der Kunde in der Änderungsmitteilung gesondert und drucktechnisch hervorgehoben hingewiesen.</p>
+        <p class="abs"><span class="num">(3)</span> Im Falle eines wirksamen Widerspruchs ist die Agentur berechtigt, das Vertragsverhältnis zum Ablauf der laufenden Vertragsperiode ordentlich zu kündigen.</p>
+      </section>
+
+      <section>
+        <h2>§ 26 Schlussbestimmungen, Gerichtsstand</h2>
+        <p class="abs"><span class="num">(1)</span> Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts und des Internationalen Privatrechts, soweit dieses zur Anwendung fremden Rechts führen würde.</p>
+        <p class="abs"><span class="num">(2)</span> <strong>Gerichtsstand.</strong> Erfüllungsort und ausschließlicher Gerichtsstand für sämtliche Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag ist, soweit der Kunde Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen ist, Hamburg. Die Agentur behält sich vor, Ansprüche gegen den Kunden auch am allgemeinen Gerichtsstand des Kunden geltend zu machen. Hat der Kunde im Inland keinen allgemeinen Gerichtsstand, ist Hamburg ausschließlicher Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag.</p>
+        <p class="abs"><span class="num">(3)</span> Vor der Anrufung der Gerichte werden die Parteien sich bemühen, die Streitigkeit gütlich beizulegen. Die schlichte Nichtzahlung der Vergütung, auch wenn diese teilweise oder mit unsubstantiierter Begründung erfolgt, ist keine Streitigkeit im Sinne dieser Regelung. Das Recht auf einstweiligen Rechtsschutz bleibt unberührt.</p>
+        <p class="abs"><span class="num">(4)</span> Änderungen oder Ergänzungen dieses Vertrages und dieser AGB bedürfen der Schrift- oder Textform. Dies gilt auch für die Änderung dieser Schriftform-Klausel. Mündliche Nebenabreden sind nicht getroffen.</p>
+        <p class="abs"><span class="num">(5)</span> <strong>Salvatorische Klausel.</strong> Sollte eine Bestimmung dieser AGB ganz oder teilweise unwirksam, nichtig oder undurchführbar sein oder werden, oder sollten die AGB eine Lücke enthalten, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. Die Parteien verpflichten sich, anstelle der unwirksamen, nichtigen oder undurchführbaren Bestimmung eine solche wirksame und durchführbare Regelung zu treffen, die dem mit der unwirksamen Bestimmung wirtschaftlich am nächsten kommt. Entsprechendes gilt für die Schließung etwaiger Lücken.</p>
+        <p class="abs"><span class="num">(6)</span> Die Vertragssprache ist Deutsch. Übersetzungen dieser AGB sind ausschließlich zu Informationszwecken; im Streitfall ist die deutsche Fassung maßgeblich.</p>
+      </section>
+
+    </main>
+
+  <hr class="agb-end" />
+
+  <footer class="agb-footer">
+    <p><strong>Grünberg Solutions GmbH</strong><br>
+      Großer Markt 16, 19348 Perleberg<br>
+      HRB 14971, Amtsgericht Neuruppin · USt-IdNr. DE452419786<br>
+      Geschäftsführer: Jonas Grünberg<br>
+      Tel. <a href="tel:+4915255604258">+49 152 55604258</a> · <a href="mailto:kontakt@gruenbergsolutions.de">kontakt@gruenbergsolutions.de</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
