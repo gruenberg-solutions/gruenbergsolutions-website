@@ -506,3 +506,12 @@ h1.pill{margin:0;white-space:normal;line-height:1.3;font-size:clamp(11px,.8vw,14
 @media (max-width:560px){.foot-grid.four{grid-template-columns:1fr}}
 .foot-region{margin-top:28px;font-size:14px;color:var(--muted);max-width:110ch}
 .err{min-height:60vh;display:grid;align-content:center;gap:24px;padding-block:80px}
+/* Branchenseiten: Fotostreifen */
+.photo-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.2vw,20px)}
+.photo-strip figure{margin:0;position:relative;border-radius:var(--r-card);overflow:hidden;aspect-ratio:4/5;background:var(--night);box-shadow:0 20px 40px rgba(20,18,16,.14)}
+.photo-strip img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-strip figure::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,16,0) 55%,rgba(20,18,16,.7))}
+.photo-strip figcaption{position:absolute;left:18px;right:18px;bottom:16px;z-index:2;color:var(--white);font-weight:800;font-size:clamp(15px,1.2vw,19px)}
+@media (max-width:700px){.photo-strip{grid-template-columns:1fr 1fr}.photo-strip figure:last-child{display:none}}
+.foot-region a{color:inherit;text-decoration:underline;text-decoration-color:rgba(20,18,16,.25);text-underline-offset:3px}
+.foot-region a:hover{color:var(--ink);text-decoration-color:var(--orange)}
