@@ -103,6 +103,41 @@
       "permanent": true
     },
     {
+      "source": "/datenschutzerklarung",
+      "destination": "/datenschutz",
+      "permanent": true
+    },
+    {
+      "source": "/datenschutzerklaerung",
+      "destination": "/datenschutz",
+      "permanent": true
+    },
+    {
+      "source": "/anfrage",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/anfrage-v",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/vortrag",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bewerbung",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/audition",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/webseite-perleberg",
       "destination": "/webdesign-perleberg",
       "permanent": true

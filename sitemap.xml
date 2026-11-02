@@ -162,16 +162,4 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
-  <url>
-    <loc>https://www.gruenbergsolutions.de/datenschutz</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://www.gruenbergsolutions.de/agb</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
 </urlset>
