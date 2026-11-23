@@ -263,6 +263,11 @@
       "permanent": true
     },
     {
+      "source": "/agrar",
+      "destination": "/social-media-recruiting",
+      "permanent": true
+    },
+    {
       "source": "/bau",
       "destination": "/",
       "permanent": false
